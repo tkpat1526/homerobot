@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.3 on win32)" generated="20190717 17:04:04.637" rpa="false">
+<suite id="s1" name="ALLTest" source="C:\development\robot-scripts\Tests\ALLTest.robot">
+<test id="s1-t1" name="User is able to navigate to all pages in Support">
+<kw name="Begin Web Test" library="Common" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${switch}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20190717 17:04:04.861" level="INFO">Opening browser 'chrome' to base url 'https://switch.leadforensics.com'.</msg>
+<status status="PASS" starttime="20190717 17:04:04.861" endtime="20190717 17:04:07.862"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20190717 17:04:07.862" endtime="20190717 17:04:08.979"></status>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0.5 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20190717 17:04:08.979" endtime="20190717 17:04:08.979"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<status status="PASS" starttime="20190717 17:04:08.979" endtime="20190717 17:04:09.481"></status>
+</kw>
+<kw name="Set Screenshot Directory" library="SeleniumLibrary">
+<doc>Sets the directory for captured screenshots.</doc>
+<arguments>
+<arg>C:\\development\\robot-scripts\\UScrennshot</arg>
+</arguments>
+<status status="PASS" starttime="20190717 17:04:09.481" endtime="20190717 17:04:09.481"></status>
+</kw>
+<status status="PASS" starttime="20190717 17:04:04.861" endtime="20190717 17:04:09.481"></status>
+</kw>
+<kw name="Enter valid login id and password" library="Login">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${l_username}</arg>
+</arguments>
+<status status="PASS" starttime="20190717 17:04:09.482" endtime="20190717 17:04:10.506"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${l_username}</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20190717 17:04:10.506" level="INFO">Typing text 'lfoptimise' into text field 'css=input#UserName'.</msg>
+<status status="PASS" starttime="20190717 17:04:10.506" endtime="20190717 17:04:12.082"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${l_password}</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20190717 17:04:12.082" level="INFO">Typing text 'ravinia2015' into text field 'id=Password'.</msg>
+<status status="PASS" starttime="20190717 17:04:12.082" endtime="20190717 17:04:13.720"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>${l_loginbutton}</arg>
+</arguments>
+<status status="PASS" starttime="20190717 17:04:13.721" endtime="20190717 17:04:14.756"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${l_loginbutton}</arg>
+</arguments>
+<msg timestamp="20190717 17:04:14.757" level="INFO">Clicking element 'id=btnSubmit'.</msg>
+<status status="PASS" starttime="20190717 17:04:14.756" endtime="20190717 17:04:18.397"></status>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` contains exact text ``expected``.</doc>
+<arguments>
+<arg>${l_verification}</arg>
+<arg>lfoptimise</arg>
+</arguments>
+<msg timestamp="20190717 17:04:18.397" level="INFO">Verifying element 'id=portal-name' contains exact text 'lfoptimise'.</msg>
+<status status="PASS" starttime="20190717 17:04:18.397" endtime="20190717 17:04:19.811"></status>
+</kw>
+<status status="PASS" starttime="20190717 17:04:09.481" endtime="20190717 17:04:19.811"></status>
+</kw>
+<kw name="Open Support page" library="HomePage">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190717 17:04:22.813" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20190717 17:04:19.811" endtime="20190717 17:04:22.813"></status>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering mouse over the element ``locator``.</doc>
+<arguments>
+<arg>${support}</arg>
+</arguments>
+<msg timestamp="20190717 17:04:22.814" level="INFO">Simulating Mouse Over on element 'xpath=//ul[@id="menu"]/li[7]'.</msg>
+<status status="PASS" starttime="20190717 17:04:22.814" endtime="20190717 17:04:23.889"></status>
+</kw>
+<status status="PASS" starttime="20190717 17:04:19.811" endtime="20190717 17:04:23.889"></status>
+</kw>
+<kw name="Open raisaticket page" library="Support">
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>Raise a Ticket</arg>
+</arguments>
+<status status="PASS" starttime="20190717 17:04:23.891" endtime="20190717 17:04:24.426"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${raisaticket}</arg>
+</arguments>
+<msg timestamp="20190717 17:04:24.426" level="INFO">Clicking element 'xpath=//ul[@id="menu"]/li[7]/div/ul/li[1]/a'.</msg>
+<status status="PASS" starttime="20190717 17:04:24.426" endtime="20190717 17:04:26.233"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190717 17:04:28.235" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20190717 17:04:26.234" endtime="20190717 17:04:28.235"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Support</arg>
+</arguments>
+<msg timestamp="20190717 17:04:29.269" level="INFO">Current page contains text 'Support'.</msg>
+<status status="PASS" starttime="20190717 17:04:28.236" endtime="20190717 17:04:29.269"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>Support</arg>
+</arguments>
+<msg timestamp="20190717 17:04:29.792" level="INFO">Page title is 'Support'.</msg>
+<status status="PASS" starttime="20190717 17:04:29.270" endtime="20190717 17:04:29.792"></status>
+</kw>
+<status status="PASS" starttime="20190717 17:04:23.890" endtime="20190717 17:04:29.793"></status>
+</kw>
+<kw name="Open Support page" library="HomePage">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190717 17:04:32.795" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20190717 17:04:29.794" endtime="20190717 17:04:32.795"></status>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering mouse over the element ``locator``.</doc>
+<arguments>
+<arg>${support}</arg>
+</arguments>
+<msg timestamp="20190717 17:04:32.796" level="INFO">Simulating Mouse Over on element 'xpath=//ul[@id="menu"]/li[7]'.</msg>
+<status status="PASS" starttime="20190717 17:04:32.796" endtime="20190717 17:04:33.873"></status>
+</kw>
+<status status="PASS" starttime="20190717 17:04:29.793" endtime="20190717 17:04:33.873"></status>
+</kw>
+<kw name="Open ideas page" library="Support">
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>Ideas</arg>
+</arguments>
+<status status="PASS" starttime="20190717 17:04:33.875" endtime="20190717 17:04:34.389"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${ideas}</arg>
+</arguments>
+<msg timestamp="20190717 17:04:34.390" level="INFO">Clicking element 'link=Ideas'.</msg>
+<status status="PASS" starttime="20190717 17:04:34.390" endtime="20190717 17:04:36.221"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190717 17:04:38.222" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20190717 17:04:36.222" endtime="20190717 17:04:38.222"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Ideas</arg>
+</arguments>
+<msg timestamp="20190717 17:04:39.236" level="INFO">Current page contains text 'Ideas'.</msg>
+<status status="PASS" starttime="20190717 17:04:38.222" endtime="20190717 17:04:39.236"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>Ideas</arg>
+</arguments>
+<msg timestamp="20190717 17:04:39.749" level="INFO">Page title is 'Ideas'.</msg>
+<status status="PASS" starttime="20190717 17:04:39.237" endtime="20190717 17:04:39.749"></status>
+</kw>
+<status status="PASS" starttime="20190717 17:04:33.874" endtime="20190717 17:04:39.749"></status>
+</kw>
+<kw name="Open Support page" library="HomePage">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190717 17:04:42.752" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20190717 17:04:39.751" endtime="20190717 17:04:42.752"></status>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering mouse over the element ``locator``.</doc>
+<arguments>
+<arg>${support}</arg>
+</arguments>
+<msg timestamp="20190717 17:04:42.753" level="INFO">Simulating Mouse Over on element 'xpath=//ul[@id="menu"]/li[7]'.</msg>
+<status status="PASS" starttime="20190717 17:04:42.753" endtime="20190717 17:04:43.821"></status>
+</kw>
+<status status="PASS" starttime="20190717 17:04:39.750" endtime="20190717 17:04:43.821"></status>
+</kw>
+<kw name="Open API page" library="Support">
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>API</arg>
+</arguments>
+<status status="PASS" starttime="20190717 17:04:43.823" endtime="20190717 17:04:44.358"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${api}</arg>
+</arguments>
+<msg timestamp="20190717 17:04:44.359" level="INFO">Clicking element 'link=API'.</msg>
+<status status="PASS" starttime="20190717 17:04:44.359" endtime="20190717 17:04:46.267"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190717 17:04:48.269" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20190717 17:04:46.268" endtime="20190717 17:04:48.269"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Integration API Details</arg>
+</arguments>
+<msg timestamp="20190717 17:04:49.301" level="INFO">Current page contains text 'Integration API Details'.</msg>
+<status status="PASS" starttime="20190717 17:04:48.269" endtime="20190717 17:04:49.301"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that current page title equals ``title``.</doc>
+<arguments>
+<arg>Integration API Details</arg>
+</arguments>
+<msg timestamp="20190717 17:04:49.816" level="INFO">Page title is 'Integration API Details'.</msg>
+<status status="PASS" starttime="20190717 17:04:49.302" endtime="20190717 17:04:49.816"></status>
+</kw>
+<status status="PASS" starttime="20190717 17:04:43.822" endtime="20190717 17:04:49.816"></status>
+</kw>
+<tags>
+<tag>Regression</tag>
+<tag>Sanity</tag>
+<tag>Smoke</tag>
+<tag>Supports</tag>
+</tags>
+<status status="PASS" starttime="20190717 17:04:04.860" endtime="20190717 17:04:49.817" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20190717 17:04:04.639" endtime="20190717 17:04:49.819"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0">Regression</stat>
+<stat pass="1" fail="0">Sanity</stat>
+<stat pass="1" fail="0">Smoke</stat>
+<stat pass="1" fail="0">Supports</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="ALLTest">ALLTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

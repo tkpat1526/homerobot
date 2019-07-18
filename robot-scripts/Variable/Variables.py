@@ -1,0 +1,8 @@
+uat = 'http://rdev.leadforensics.com'
+beta = 'https://beta.leadforensics.com'
+switch = 'https://switch.leadforensics.com'
+Browser = 'chrome'
+username = 'lfoptimise'
+password = 'ravinia2015'
+invalidpassword =   'ewhfhhh'
+invalidusername = 'ahffweaah'
