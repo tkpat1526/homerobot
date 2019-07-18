@@ -32,7 +32,7 @@ Open lead manager - lead to action page
     wait until page contains            Lead to Action
     page should contain                 Lead to Action
     title should be                     Lead to Action
-Open lead manager -  overview page
+Open lead manager - overview page
     click element                       ${overview}
     wait until page contains            Lead Overview
     page should contain                 Lead Overview

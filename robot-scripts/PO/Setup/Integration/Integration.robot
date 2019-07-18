@@ -4,7 +4,8 @@ Library  SeleniumLibrary
 
 
 *** Variables ***
-${integrationsettings}=                     xpath=//ul[@id="menu"]/li[6]/div/ul/li[8]/div/ul/li[1]
+${integrationsettings} =                    link=Integration Settings
+# xpath=//ul[@id="menu"]/li[6]/div/ul/li[8]/div/ul/li[1]
 ${integrationsentvisits}=                   xpath=//ul[@id="menu"]/li[6]/div/ul/li[8]/div/ul/li[2]
 ${integrationcountrymap}=                   xpath=//ul[@id="menu"]/li[6]/div/ul/li[8]/div/ul/li[3]/a
 
@@ -12,6 +13,7 @@ ${integrationcountrymap}=                   xpath=//ul[@id="menu"]/li[6]/div/ul/
 
 *** Keywords ***
 Open Integration pages-Integration settings
+    wait until page contains             Integration Settings
     Click Element                        ${integrationsettings}
     Page Should Contain                  Integration Settings
     title should be                      Integration Settings

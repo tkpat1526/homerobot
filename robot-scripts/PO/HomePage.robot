@@ -33,8 +33,6 @@ Open Reports pages
     Sleep    5s
     Mouse over                       ${reportpage}
 
-
-
 Open Leads Page
     click element                   ${leads}
     sleep  2s
@@ -52,9 +50,9 @@ Open Search Page
     title should be                 Search
 Open Setup pages
     wait until page contains        Setup
-    Mouse over                      ${setup}
-    Sleep    6s
-Open Support page
+    mouse over                    ${setup}
+    Sleep    2s
+Open Support pages
     Sleep    3s
     Mouse Over                      ${support}
 Open Academy Page
@@ -65,8 +63,7 @@ Open Academy Page
     Title Should Be                 Lead Forensics Academy – Lead Forensics Academy
     Select Window   Main
 Open Accelerate page
-    Sleep    3s
-    Click Element                   ${accelerate}
-    Get Title
-    Sleep    3s
-    Page Should Contain             Welcome back, LF Optimisation.
+    wait until page contains        Accelerate
+    mouse over                      ${accelerate}
+
+
