@@ -22,7 +22,7 @@ Resource  ../PO/Setup/UserSetup/UsersSetup.robot
 Resource  ../PO/Accelerate/Accelerate.robot
 Library  SeleniumLibrary
 Test Setup              Begin Web Test
-Test Teardown           End Web Test
+#Test Teardown           End Web Test
 Force Tags   Regression
 
 *** Variables ***
@@ -44,7 +44,7 @@ user is able to login sucessfully
     Login.Enter valid login id and password
 # ///////////////////////////////////Home age????????????????????????????????????????
 user is able to navigate to all pages
-    [Tags]  Homepages  Pages  Smoke  Sanity
+    [Tags]  Pages  Smoke  Sanity
     Login.Enter valid login id and password
     HomePage.Open Dashboard Page
     HomePage.Open Visitor List Page
@@ -55,12 +55,13 @@ user is able to navigate to all pages
     HomePage.Open Search page
     HomePage.Open Setup pages
     Setup.Open account setting page
-    HomePage.Open Support pages
+     HomePage.Open Support Page
+    Support.Open Raisaticket Page
     HomePage.Open Academy page
     HomePage.Open Accelerate page
     # //////// all the pages in Reports menu  ///////////////////////
 user is able to navigate to all pages in Reports
-    [Tags]  Reports Pages Smoke  Sanity
+    [Tags]  Reports  Smoke  Sanity
     Login.Enter valid login id and password
     HomePage.Open Reports pages
     Reports.Open categories page
@@ -81,11 +82,11 @@ user is able to navigate to all pages in Reports
     HomePage.Open Reports pages
     Reports.Open watch list page
 user is able to navigate to all pages in reports - Lead manager
-    [Tags]  Replead  Pages  Smoke  Sanity
+    [Tags]  Replead  Smoke  Sanity
     Login.Enter valid login id and password
     HomePage.Open Reports pages
     Reports.Open lead manager page
-    ReportLead.open lead manager - conversion page
+    ReportLead.Open Lead Manager - Conversion Page
     HomePage.Open Reports pages
     Reports.Open lead manager page
     ReportLead.Open lead manager - distribution page
@@ -102,7 +103,7 @@ user is able to navigate to all pages in reports - Lead manager
     Reports.Open lead manager page
     ReportLead.Open lead manager - revenue page
 user is able to navigate to all pages in reports - Pages
-    [Tags]  Reppage  Pages  Smoke  Sanity
+    [Tags]  Reppage  Smoke  Sanity
     Login.Enter valid login id and password
     HomePage.Open Reports pages
     Reports.Hover to Pages page
@@ -114,19 +115,19 @@ user is able to navigate to all pages in reports - Pages
     Reports.Hover to Pages page
     Pages.Open most popular pages
 User is able to navigate all the pages in Reports - Statistics
-    [Tags]  Repstat  Pages  Smoke  Sanity
+    [Tags]  Repstat Smoke Sanity
     Login.enter valid login id and password
     HomePage.Open Reports pages
     Open Reports statistics page
     Statistics.open statistics (overview) page
 User is able to navigate to al the pages in Reports - Trigger reports
-    [Tags]  Reptrigger  Pages  Smoke  Sanity
+    [Tags]  Reptrigger Smoke Sanity
     Login.enter valid login id and password
     HomePage.Open Reports pages
     Reports.Open reports - trigger reports page
     TriggerReports.Open my trigger reports page
 User is able to navigate to all pages in Reports - Visitors page
-    [Tags]  Repvisit  Pages  Smoke  Sanity
+    [Tags]  Repvisit  Smoke  Sanity
     Login.enter valid login id and password
     HomePage.Open Reports pages
     Open Visitor Reports Page
@@ -139,7 +140,7 @@ User is able to navigate to all pages in Reports - Visitors page
     Visitors.Open most engagged page
 # /////////////////////////// All the pages in setup Menu /////////////////////////////////////////
 User is able to navigate to all pages in Setup
-    [Tags]  Setup  Pages  Smoke  Sanity
+    [Tags]  Setup  Smoke  Sanity
     Login.enter valid login id and password
     HomePage.Open Setup Pages
     Setup.Open account setting page
@@ -164,7 +165,7 @@ User is able to navigate to all pages in Setup
     HomePage.Open Setup pages
     Setup.Open visitor categorisation page
 User is able to navigate to all pages in setup - data manager
-    [Tags]  DataManager  Pages  Smoke  Sanity
+    [Tags]  DataManager  Smoke  Sanity
     Login.enter valid login id and password
     HomePage.Open Setup pages
     Setup.open data manager page
@@ -173,7 +174,7 @@ User is able to navigate to all pages in setup - data manager
     Setup.open data manager page
     DataManager.Open data manager pages-manage data
 User is able to navigate to all pages in setup - Email reports
-    [Tags]  Emailreports  Pages  Smoke  Sanity
+    [Tags]  Emailreports  Smoke  Sanity
     Login.enter valid login id and password
     HomePage.Open Setup pages
     Setup.Open Email Reports page
@@ -181,8 +182,8 @@ User is able to navigate to all pages in setup - Email reports
     HomePage.Open Setup Pages
     Setup.Open Email Reports page
     EmailReports.Open email reports Pages-keyword
-User is able to navigate all pages in setup - Integration
-    [Tags]  Integration  Pages  Smoke  Sanity
+User is able to navigate all pages in setup - Integt=ration
+    [Tags]  Integration  Smoke  Sanity
     Login.enter valid login id and password
     HomePage.Open Setup pages
     Setup.Open integration page
@@ -194,7 +195,7 @@ User is able to navigate all pages in setup - Integration
     Setup.Open integration page
     Integration.Open Integration pages-sentvisits
 User is able to navigate to all pages in setup - Lead manager
-    [Tags]  LeadManager   Pages  Smoke  Sanity
+    [Tags]  LeadManager  Smoke  Sanity
     Login.enter valid login id and password
     HomePage.open setup pages
     Setup.Open Lead manager page
@@ -206,7 +207,7 @@ User is able to navigate to all pages in setup - Lead manager
     Setup.Open Lead manager page
     SetupLeadManager.Open lead manager pages- leadsetup
 User is able to navigate to all pages in setup - user setup
-    [Tags]  Usersetup  Pages  Smoke  Sanity
+    [Tags]  Usersetup  Smoke  Sanity
     Login.enter valid login id and password
     HomePage.open setup pages
     Setup.Open user setup page
@@ -215,7 +216,7 @@ User is able to navigate to all pages in setup - user setup
     Setup.Open user setup page
     UsersSetup.Open user pages - disabled users
 user is able to navigate to all pages in setup - Contact information
-    [Tags]  contactinformation  Pages  Smoke  Sanity
+    [Tags]  contactinformation  Smoke  Sanity
     Login.enter valid login id and password
     HomePage.Open Setup Pages
     Setup.Open contact information page
@@ -228,54 +229,67 @@ user is able to navigate to all pages in setup - Contact information
     ContactInformation.Open contact information pages-purchase contacts
 #    //// all pages in Suppoert menu ////////////////////
 User is able to navigate to all pages in Support
-    [Tags]  Supports  Pages  Smoke  Sanity
+    [Tags]  Supports  Smoke  Sanity
     Login.enter valid login id and password
-    HomePage.Open Support pages
+    HomePage.Open Support page
     Support.Open raisaticket page
-    HomePage.Open Support pages
+    HomePage.Open Support page
     Support.Open ideas page
-    HomePage.Open Support pages
+    HomePage.Open Support page
     Support.Open API page
 #    ////  all pages in Accelerate menu /////////////
 user is able to navigate to all pages in accelerate
-    [Tags]  Accelerate  Pages  Smoke  Sanity
     Login.enter valid login id and password
     HomePage.Open Accelerate page
-    Accelerate.Open settings page
-    HomePage.Open Accelerate page
-    Accelerate.Open audience page
-    HomePage.Open Accelerate page
-    Accelerate.Open conversation page
-    HomePage.Open Accelerate page
-    Accelerate.open mappings page
-    HomePage.Open Accelerate page
-    Accelerate.Open accelerate - reports page
-    HomePage.Open Accelerate page
 
+    HomePage.Open Accelerate page
+    HomePage.Open Accelerate page
+    HomePage.Open Accelerate page
+    HomePage.Open Accelerate page
+    HomePage.Open Accelerate page
 # //////////////////// Visitor List Page ////////////////////////
 user is able to enable auto refresh
-    [Tags]  Visit   Smoke  Sanity
+    [Tags]  Visit  Visitorlist    Sanity
     Login.enter valid login id and password
     sleep  5s
     VisitoList.user is able to click on auto refresh button
     #  varification with select fram drop down menu
     #  Today,yesterday,two days and custom date - varification first and sixth companiy from the list
 user should be able to select different time frame
-    [Tags]  Timeframe  Smoke  Sanity
+    [Tags]  Timeframe  Visitorlist  Sanity
     Login.enter valid login id and password
     sleep  5s
-    VisitoList.click on Time frame option
-    sleep  3s
-    VisitoList.select yesterday's time frame
-    sleep  3s
-    VisitoList.Match visit by yesterday's date
-    sleep  3s
-    VisitoList.Select two days time frame
-    VisitoList.Match Visit By Two Day's Date
-    VisitoList.Select today's time frame
-    VisitoList.Match visits by today's date
+#    VisitoList.click on Time frame option
+#    sleep  3s
+#    VisitoList.select yesterday's time frame
+#    sleep  3s
+#    VisitoList.Match visit by yesterday's date
+#    sleep  3s
+#    VisitoList.Select two days time frame
+#    VisitoList.Match Visit By Two Day's Date
+#    VisitoList.Select today's time frame
+#    VisitoList.Match visits by today's date
     VisitoList.user is able to select Custom time frame
-
+User is able to diable Unique Visits only Button
+    [Tags]  Uniquevisit  Visitorlist   Sanity
+    enter valid login id and password
+    open visitor list page
+    Disable and enable unique visits only button
+User is able to enable modern view
+    [Tags]  Classicview  Visitorlist   Sanity
+    Login.enter valid login id and password
+    HomePage.Open Visitor List Page
+    VisitoList.Click On Modern View
+User is able to disable and enable expand all button
+    [Tags]  expandall  Visitorlist   Sanity
+    Login.enter valid login id and password
+    HomePage.open visitor list page
+    VisitoList.Disable and enable expand all button
+User is able to serach visits by company name
+    [Tags]  searchcompany  Visitorlist   Sanity
+    Login.enter valid login id and password
+    HomePage.open visitor list page
+    VisitoList.Search visits by company name
 
 
 

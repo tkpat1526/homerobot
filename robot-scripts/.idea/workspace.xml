@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25a620dd-52d2-4be6-9209-1f8fa631d866" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Driver/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/MicrosoftWebDriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Driver/geckodriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO/Reports/LeadManager1/ReportLead.robot" beforeDir="false" afterPath="$PROJECT_DIR$/PO/Reports/LeadManager1/ReportLead.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO/Reports/Reports.robot" beforeDir="false" afterPath="$PROJECT_DIR$/PO/Reports/Reports.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO/VisitoList.robot" beforeDir="false" afterPath="$PROJECT_DIR$/PO/VisitoList.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/AllTest.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/AllTest.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,64 +21,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/AllTest.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="271" column="19" selection-start-line="271" selection-start-column="19" selection-end-line="271" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#1066#0" expanded="true" />
+                <element signature="e#1340#1655#0" />
+                <element signature="e#1742#2282#0" />
+                <element signature="e#2353#3115#0" />
+                <element signature="e#3116#3973#0" />
+                <element signature="e#3974#4416#0" />
+                <element signature="e#4417#4668#0" />
+                <element signature="e#4669#4946#0" />
+                <element signature="e#4947#5382#0" />
+                <element signature="e#5483#6700#0" />
+                <element signature="e#6701#7075#0" />
+                <element signature="e#7076#7455#0" />
+                <element signature="e#7456#7941#0" />
+                <element signature="e#7942#8445#0" />
+                <element signature="e#8446#8800#0" />
+                <element signature="e#8801#9376#0" />
+                <element signature="e#9435#9744#0" />
+                <element signature="e#9799#10099#0" />
+                <element signature="e#10166#10360#0" />
+                <element signature="e#11280#11476#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tests/ALLTest.robot">
+        <entry file="file://$PROJECT_DIR$/PO/VisitoList.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PO/Accelerate/Accelerate.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PO/Automation5.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PO/Setup/Setup.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2354">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="333">
+              <caret line="157" column="38" lean-forward="true" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="38" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#100#0" expanded="true" />
+                <element signature="e#2505#3096#0" />
+                <element signature="e#3097#3185#0" />
+                <element signature="e#3395#3493#0" />
+                <element signature="e#3494#3773#0" />
+                <element signature="e#3774#4593#0" />
+                <element signature="e#4594#4969#0" />
+                <element signature="e#4970#5783#0" />
+                <element signature="e#5784#6129#0" />
+                <element signature="e#6130#6935#0" />
+                <element signature="e#6936#7032#0" />
+                <element signature="e#7033#10077#0" />
+                <element signature="e#9208#9278#0" />
+                <element signature="e#9279#9890#0" />
+                <element signature="e#9891#10103#0" />
+                <element signature="e#10106#10249#0" />
+                <element signature="e#10312#10395#0" />
+                <element signature="e#10396#11328#0" />
+                <element signature="e#11329#12261#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PO/Supports/Support.robot">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/robot/libraries/BuiltIn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="25" column="11" selection-start-line="25" selection-end-line="26" />
+            <state relative-caret-position="477">
+              <caret line="1686" column="8" selection-start-line="1686" selection-start-column="8" selection-end-line="1686" selection-end-column="8" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PO/HomePage.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1408">
-              <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#62#0" expanded="true" />
+                <element signature="e#644#658#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,12 +104,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Tests/Variable/Variables.py" />
-        <option value="$PROJECT_DIR$/Tests/TestSuits/Results/BasePage.robot" />
         <option value="$PROJECT_DIR$/Tests/Uils.py" />
         <option value="$PROJECT_DIR$/Tests/BasePage.robot" />
         <option value="$PROJECT_DIR$/Results/Tests/BasePage.robot" />
@@ -115,12 +133,9 @@
         <option value="$PROJECT_DIR$/PO/mp.py" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/SeleniumLibrary/keywords/window.py" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/SeleniumLibrary/keywords/element.py" />
-        <option value="$PROJECT_DIR$/Variable/Variables.py" />
         <option value="$PROJECT_DIR$/PO/utils.py" />
         <option value="$PROJECT_DIR$/Results/Tests/ALLTest.robot" />
         <option value="$PROJECT_DIR$/PO/DataManager.robot" />
-        <option value="$PROJECT_DIR$/PO/VisitoList.robot" />
-        <option value="$PROJECT_DIR$/PO/Login.robot" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/robot/libraries/Screenshot.py" />
         <option value="$PROJECT_DIR$/PO/Automation5.robot" />
         <option value="$PROJECT_DIR$/PO/Setup.robot" />
@@ -131,7 +146,6 @@
         <option value="$PROJECT_DIR$/PO/Support.robot" />
         <option value="$PROJECT_DIR$/PO/Reports/Statistics/Statistics.robot" />
         <option value="$PROJECT_DIR$/PO/Reports/TriggerReports/TriggerReports.robot" />
-        <option value="$PROJECT_DIR$/PO/Reports/Reports.robot" />
         <option value="$PROJECT_DIR$/PO/Reports/Visitors/Visitors.robot" />
         <option value="$PROJECT_DIR$/PO/Setup/ContactInformation/ContactInformation.robot" />
         <option value="$PROJECT_DIR$/PO/Setup/DataManager/DataManager.robot" />
@@ -144,16 +158,20 @@
         <option value="$PROJECT_DIR$/PO/HomePage.robot" />
         <option value="$PROJECT_DIR$/Tests/ALLTest.robot" />
         <option value="$PROJECT_DIR$/PO/Accelerate/Accelerate.robot" />
+        <option value="$PROJECT_DIR$/Variable/Variables.py" />
+        <option value="$PROJECT_DIR$/PO/Login.robot" />
+        <option value="$PROJECT_DIR$/PO/Reports/Reports.robot" />
+        <option value="$PROJECT_DIR$/PO/Reports/LeadManager1/ReportLead.robot" />
+        <option value="$PROJECT_DIR$/Tests/AllTest.robot" />
+        <option value="$PROJECT_DIR$/PO/VisitoList.robot" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2051" />
-    <option name="y" value="16" />
+    <option name="x" value="1966" />
     <option name="width" value="1786" />
     <option name="height" value="1006" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <showExcludedFiles Scope="true" ProjectPane="true" />
@@ -171,18 +189,20 @@
             <path>
               <item name="robot-scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="robot-scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="Library" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robot-scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robot-scripts" type="462c0819:PsiDirectoryNode" />
               <item name="PO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="robot-scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="robot-scripts" type="462c0819:PsiDirectoryNode" />
               <item name="PO" type="462c0819:PsiDirectoryNode" />
-              <item name="Accelerate" type="462c0819:PsiDirectoryNode" />
+              <item name="Reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robot-scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robot-scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="PO" type="462c0819:PsiDirectoryNode" />
+              <item name="Reports" type="462c0819:PsiDirectoryNode" />
+              <item name="LeadManager1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="robot-scripts" type="b2602c69:ProjectViewProjectNode" />
@@ -244,8 +264,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.User is able to navigate to all pages in Support">
-    <configuration name="User is able to navigate all pages in setup - Integt=ration" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.user should be able to select different time frame">
+    <configuration name="User is able to disable and enable expand all button" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="newproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,7 +278,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value=" -t &quot;User is able to navigate all pages in setup - Integt=ration&quot; Tests/ALLTest.robot" />
+      <option name="PARAMETERS" value=" -t &quot;User is able to disable and enable expand all button&quot; Tests/AllTest.robot" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="true" />
@@ -266,7 +286,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="User is able to navigate to all pages in Support" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="User is able to enable classic view" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="newproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,7 +299,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value=" -t &quot;User is able to navigate to all pages in Support&quot; Tests/ALLTest.robot" />
+      <option name="PARAMETERS" value=" -t &quot;User is able to enable classic view&quot; Tests/AllTest.robot" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="true" />
@@ -287,7 +307,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="User is able to navigate to all pages in setup - Email reports" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="User is able to enable modern view" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="newproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -300,7 +320,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value=" -t &quot;User is able to navigate to all pages in setup - Email reports&quot; Tests/ALLTest.robot" />
+      <option name="PARAMETERS" value=" -t &quot;User is able to enable modern view&quot; Tests/AllTest.robot" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="true" />
@@ -308,7 +328,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="User is able to navigate to all pages in setup - Lead manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="User is able to serach visits by company name" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="newproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,7 +341,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value=" -t &quot;User is able to navigate to all pages in setup - Lead manager&quot; Tests/ALLTest.robot" />
+      <option name="PARAMETERS" value=" -t &quot;User is able to serach visits by company name&quot; Tests/AllTest.robot" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="true" />
@@ -329,7 +349,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="User is able to navigate to all pages in setup - data manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="user should be able to select different time frame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="newproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,7 +362,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value=" -t &quot;User is able to navigate to all pages in setup - data manager&quot; Tests/ALLTest.robot" />
+      <option name="PARAMETERS" value=" -t &quot;user should be able to select different time frame&quot; Tests/AllTest.robot" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="true" />
@@ -352,11 +372,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.User is able to navigate to all pages in Support" />
-        <item itemvalue="Python.User is able to navigate to all pages in setup - Lead manager" />
-        <item itemvalue="Python.User is able to navigate all pages in setup - Integt=ration" />
-        <item itemvalue="Python.User is able to navigate to all pages in setup - Email reports" />
-        <item itemvalue="Python.User is able to navigate to all pages in setup - data manager" />
+        <item itemvalue="Python.user should be able to select different time frame" />
+        <item itemvalue="Python.User is able to serach visits by company name" />
+        <item itemvalue="Python.User is able to disable and enable expand all button" />
+        <item itemvalue="Python.User is able to enable modern view" />
+        <item itemvalue="Python.User is able to enable classic view" />
       </list>
     </recent_temporary>
   </component>
@@ -374,15 +394,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2051" y="16" width="1786" height="1006" extended-state="0" />
+    <frame x="1966" y="0" width="1786" height="1006" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.14702517" />
+      <window_info id="Project" order="0" visible="true" weight="0.14702517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21993127" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2371134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977092" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,13 +491,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Results/Tests/ALLTest.robot" />
-    <entry file="file://$PROJECT_DIR$/Variable/Variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/robot/utils/robottime.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5642">
@@ -512,16 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/robot/libraries/BuiltIn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#644#658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/selenium-screenshot-1.png" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/html/parser.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -537,6 +540,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2448">
           <caret line="148" column="31" selection-start-line="148" selection-start-column="31" selection-end-line="148" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO/Automation5.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -568,39 +581,6 @@
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#694#705#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PO/webeo.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PO/VisitoList.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PO/Login.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PO/Reports/LeadManager1/ReportLead.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -639,26 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PO/Reports/Reports.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="56" column="54" lean-forward="true" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PO/Reports/Visitors/Visitors.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="25" column="58" lean-forward="true" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -725,17 +685,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PO/Accelerate/Accelerate.robot">
+    <entry file="file://$PROJECT_DIR$/PO/Login.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="330">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PO/Automation5.robot">
+    <entry file="file://$PROJECT_DIR$/PO/Accelerate/Accelerate.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="110">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Variable/Variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO/webeo.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -759,9 +739,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PO/Reports/LeadManager1/ReportLead.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO/Reports/Reports.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#1110#1337#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/robot/libraries/String.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO/Reports/Visitors/Visitors.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PO/HomePage.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
+        <state relative-caret-position="597">
           <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
@@ -769,17 +787,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Library/Lib.bat">
+    <entry file="file://$PROJECT_DIR$/Tests/AllTest.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="201">
+          <caret line="271" column="19" selection-start-line="271" selection-start-column="19" selection-end-line="271" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#1066#0" expanded="true" />
+            <element signature="e#1340#1655#0" />
+            <element signature="e#1742#2282#0" />
+            <element signature="e#2353#3115#0" />
+            <element signature="e#3116#3973#0" />
+            <element signature="e#3974#4416#0" />
+            <element signature="e#4417#4668#0" />
+            <element signature="e#4669#4946#0" />
+            <element signature="e#4947#5382#0" />
+            <element signature="e#5483#6700#0" />
+            <element signature="e#6701#7075#0" />
+            <element signature="e#7076#7455#0" />
+            <element signature="e#7456#7941#0" />
+            <element signature="e#7942#8445#0" />
+            <element signature="e#8446#8800#0" />
+            <element signature="e#8801#9376#0" />
+            <element signature="e#9435#9744#0" />
+            <element signature="e#9799#10099#0" />
+            <element signature="e#10166#10360#0" />
+            <element signature="e#11280#11476#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/ALLTest.robot">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/robot/libraries/BuiltIn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="477">
+          <caret line="1686" column="8" selection-start-line="1686" selection-start-column="8" selection-end-line="1686" selection-end-column="8" />
+          <folding>
+            <element signature="e#644#658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO/VisitoList.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="157" column="38" lean-forward="true" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+            <element signature="e#2505#3096#0" />
+            <element signature="e#3097#3185#0" />
+            <element signature="e#3395#3493#0" />
+            <element signature="e#3494#3773#0" />
+            <element signature="e#3774#4593#0" />
+            <element signature="e#4594#4969#0" />
+            <element signature="e#4970#5783#0" />
+            <element signature="e#5784#6129#0" />
+            <element signature="e#6130#6935#0" />
+            <element signature="e#6936#7032#0" />
+            <element signature="e#7033#10077#0" />
+            <element signature="e#9208#9278#0" />
+            <element signature="e#9279#9890#0" />
+            <element signature="e#9891#10103#0" />
+            <element signature="e#10106#10249#0" />
+            <element signature="e#10312#10395#0" />
+            <element signature="e#10396#11328#0" />
+            <element signature="e#11329#12261#0" />
+          </folding>
         </state>
       </provider>
     </entry>

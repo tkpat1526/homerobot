@@ -1,6 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
-
+Variables     ../Variable/Variables.py
+Library   String
 
 Library  DateTime
 *** Variables ***
@@ -16,7 +17,21 @@ ${inputcustomfrom} =                 id=StandardFilter_CustomDateFrom
 ${inputcutomto} =                    id=StandardFilter_CustomDateTo
 ${clickonviewbutton} =               xpath=//button[@id="btnChangeDate"]
 ${customdateselect} =                xpath=//ul[@id="StandardFilter_SelectedDateValue_listbox"]/li[12]
-${clickondatetooltip}=               xpath=//div[@id="grdvisitorlist"]/table/thead/tr/th[3]
+${clickondatetooltip}=               xpath=//div[@id="grdvisitorlist"]/table/thead/tr/th[3]/a
+${uniquevisit} =                     id=tbUniqueVisitsOnly
+${classicview} =                     css=[title='Classic'][data-viewmode='Classic']
+${downarrow} =                       xpath=//div[@id="grdvisitorlist"]/table/tbody/tr[1]/td[19]
+${imagenotpresent} =                 xpathe=//div[@id="grdvisitorlist"]/table/tbody/tr[1]/td[11]
+${modernview} =                      css=[title='Modern']
+${imagepresent} =                    xpath=//div[@id="grdvisitorlist"]/table/tbody/tr[2]/td[1]/div/div/div/div/div/a/img
+${expandall} =                       id=tbAutoExpand
+${inputtext} =                       id=SearchText
+${opendrpdownsearch} =               xpath=//span[@style="width: 100px;"]/span
+${selcecompany} =                    xpath=//ul[@id="SearchType_listbox"]/li[1]
+${clickonsearch} =                   id=btnSearch
+${getstring} =                       xpath=//div[@id="lfwrapper"]/span[1]
+${getcompanyname} =                  xpath=//div[@id="grdvisitorlist"]/table/tbody/tr/td[4]/div/a
+${novisitmessage} =                  xpath=//div[@id="grdvisitorlist"]/table/tbody/tr/td/b
 
 *** Keywords ***
 # refresh button enable and disable both /////////////////////////////
@@ -60,7 +75,6 @@ Select two days time frame
     click element                                   ${twodaytimeframeselect}
     sleep  2s
     element should contain                          ${assertforselecteddays}        2 Days Ago
-
 Match visit by two day's date
     ${CurrentDate}=       Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
     ${actualtwodaysdate}=  Subtract Time From Date  ${CurrentDate}   2 days   result_format=%d/%m/%Y
@@ -92,6 +106,8 @@ Match visits by today's date
     ${vistdate1}=       get text                    ${sixthcompanyvisit}
     ${todays1}=         convert to string           ${vistdate1}
     should contain                                  ${todays1}      ${actualtwodaysdate}
+click on date tool tip
+    click element                                   ${clickondatetooltip}
 user is able to select Custom time frame
     ${CurrentDate}=     Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
     ${customefrom}=     Subtract Time From Date     ${CurrentDate}   10 days   result_format=%d/%m/%Y
@@ -113,19 +129,83 @@ user is able to select Custom time frame
     sleep   4s
     ${customefrom1}=       get value                ${inputcustomfrom}
     should be equal                                 ${customefrom}     ${customefrom1}
-    ${customto}=         get value                  ${inputcutomto}
-    should be equal                                 ${customto}        ${customeTo}
-    sleep  3s
-    click element                                   ${clickondatetooltip}
+    ${customto1} =         get value                  ${inputcutomto}
+#    log to console  ${customto1}
+    should be equal                                 ${customto1}        ${customeTo}
     sleep  5s
+
     ${visitdat} =           get text                ${firstcompanyvisit}
     ${Customefromdate}=     convert to string       ${visitdat}
-    Log                                             ${Customefromdate}
-    should contain                                  ${Customefromdate}   ${customefrom}
-    sleep  3s
-    click element                                   ${clickondatetooltip}
-    sleep  5s
-    ${vistdate1}=           get text                ${firstcompanyvisit}
-    ${Customtodate}=  convert to string              ${vistdate1}
-    Log                                             ${Customtodate}
-    should contain                                  ${Customtodate}      ${customeTo}
+    log to console                                  ${Customefromdate}
+    ${cutstring} =  should start with       ${Customefromdate}      17/07/2019
+    #   should contain                                  ${Customefromdate}   ${customefrom}
+    run keyword if  '${Customefromdate}' == '${cutstring}'   click on date tool tip
+                     click element                                   ${clickondatetooltip}
+                     sleep  5s
+                     ${visitdat} =           get text                ${firstcompanyvisit}
+                     ${Customefromdate}=     convert to string       ${visitdat}
+                     log to console                                   ${Customefromdate}
+                     should contain                                  ${Customefromdate}   ${customefrom}
+    run keyword if  '${Customefromdate}' != '${cutstring}'   click on date tool tip
+#                     click element                                   ${clickondatetooltip}
+                      sleep  5s
+                      ${vistdate1}=           get text                ${firstcompanyvisit}
+                      ${Customtodate}=  convert to string             ${vistdate1}
+                      log to console                                      ${Customtodate}
+                      should contain   ${Customtodate}      ${customeTo}
+
+click Unique Visits only Button
+    click element       ${uniquevisit}
+Disable and enable unique visits only button
+    ${toggle1}=  get element attribute  ${uniquevisit}  class
+    run keyword if  '${toggle1}' == 'left toggleButton conversionDisabled'     click Unique Visits only Button
+                    sleep  5s
+                    get element attribute  ${uniquevisit}  class="left toggleButton conversionActive"
+                    sleep  5s
+                    click element  ${uniquevisit}
+                    ${toggle1}=  get element attribute  ${uniquevisit}  class
+                    get element attribute  ${uniquevisit}  class="left toggleButton conversionDisabled"
+Click on Classic View
+    click element                               ${classicview}
+    element should be visible                   ${downarrow}
+    page should not contain image               ${imagenotpresent}
+Click on Modern View
+    click element                               ${modernview}
+    element should be visible                   ${downarrow}
+#    page should contain image                   ${imagepresent}
+click on expand button
+    click element                               ${expandall}
+Disable and enable expand all button
+    ${toggle3}=  get element attribute          ${expandall}  class
+    run keyword if  '${toggle3}' == 'left toggleButton conversionDisabled'     click on expand button
+                    sleep  5s
+                    get element attribute       ${expandall}  class="left toggleButton conversionActive"
+                    element should be visible                   ${downarrow}
+                    page should contain image                   ${imagepresent}
+                    sleep  5s
+                    click element               ${expandall}
+                    ${toggle1}=  get element attribute  ${expandall}  class
+                    get element attribute       ${expandall}  class="left toggleButton conversionDisabled"
+                    element should be visible                   ${downarrow}
+                    page should not contain image               ${imagenotpresent}
+Search visits by company name
+    input text              ${inputtext}    ${searchcompanyname}
+    click element           ${opendrpdownsearch}
+    click element           ${selcecompany}
+    click element           ${clickonsearch}
+    ${string1}  get text   ${getstring}
+    log to console  ${string1}
+    run keyword if  '${string1}' == 'No items to display'   log to console  error message
+                     ${companymessage1}  get text  ${novisitmessage}
+                     log to console  ${companymessage1}
+                     element should contain  ${novisitmessage}  There are no visits to display. Please check your filters and try again.
+
+    run keyword if  '${string1}' == 'No items to display'   Select two days time frame
+                     sleep  2s
+                     ${string2}  get text   ${getstring}
+#                     log to console   ${string2}
+                     page should contain      Showing
+                     ${companyname}  get element attribute  ${getcompanyname}  title
+                     log to console  ${companyname}
+                     convert to string  ${companyname}
+                     should contain  ${companyname}  ${searchcompanyname}

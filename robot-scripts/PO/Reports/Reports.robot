@@ -59,6 +59,7 @@ Open login activity page
 
 Open login referring sites page
     Wait Until Page Contains            Referring Sites
+    sleep  3s
     Click Element                       ${referringsites}
     Page Should Contain                 Referring Sites
     title should be                     Referring Sites
