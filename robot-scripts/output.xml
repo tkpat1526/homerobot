@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.7.3 on win32)" generated="20190719 14:38:50.916" rpa="false">
+<robot generator="Robot 3.1.2 (Python 3.7.3 on win32)" generated="20190724 13:35:09.671" rpa="false">
 <suite id="s1" name="AllTest" source="C:\development\lf\robot-scripts\Tests\AllTest.robot">
-<test id="s1-t1" name="user should be able to select different time frame">
+<test id="s1-t1" name="User is able to search visits by keyword">
 <kw name="Begin Web Test" library="Common" type="setup">
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the given ``url``.</doc>
 <arguments>
-<arg>${switch}</arg>
+<arg>${beta}</arg>
 <arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20190719 14:38:51.184" level="INFO">Opening browser 'chrome' to base url 'https://switch.leadforensics.com'.</msg>
-<status status="PASS" starttime="20190719 14:38:51.184" endtime="20190719 14:38:53.975"></status>
+<msg timestamp="20190724 13:35:09.904" level="INFO">Opening browser 'chrome' to base url 'https://beta.leadforensics.com'.</msg>
+<status status="PASS" starttime="20190724 13:35:09.904" endtime="20190724 13:35:12.845"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20190719 14:38:53.975" endtime="20190719 14:38:55.097"></status>
+<status status="PASS" starttime="20190724 13:35:12.845" endtime="20190724 13:35:13.971"></status>
 </kw>
 <kw name="Set Selenium Speed" library="SeleniumLibrary">
 <doc>Sets the delay that is waited after each Selenium command.</doc>
 <arguments>
 <arg>0.5 seconds</arg>
 </arguments>
-<status status="PASS" starttime="20190719 14:38:55.097" endtime="20190719 14:38:55.097"></status>
+<status status="PASS" starttime="20190724 13:35:13.972" endtime="20190724 13:35:13.972"></status>
 </kw>
 <kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
 <doc>Sets the implicit wait value used by Selenium.</doc>
 <arguments>
 <arg>2s</arg>
 </arguments>
-<status status="PASS" starttime="20190719 14:38:55.098" endtime="20190719 14:38:55.599"></status>
+<status status="PASS" starttime="20190724 13:35:13.973" endtime="20190724 13:35:14.477"></status>
 </kw>
 <kw name="Set Screenshot Directory" library="SeleniumLibrary">
 <doc>Sets the directory for captured screenshots.</doc>
 <arguments>
 <arg>C:\\development\\robot-scripts\\UScrennshot</arg>
 </arguments>
-<status status="PASS" starttime="20190719 14:38:55.599" endtime="20190719 14:38:55.599"></status>
+<status status="PASS" starttime="20190724 13:35:14.477" endtime="20190724 13:35:14.478"></status>
 </kw>
-<status status="PASS" starttime="20190719 14:38:51.184" endtime="20190719 14:38:55.599"></status>
+<status status="PASS" starttime="20190724 13:35:09.904" endtime="20190724 13:35:14.479"></status>
 </kw>
 <kw name="Enter valid login id and password" library="Login">
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
@@ -45,7 +45,7 @@
 <arguments>
 <arg>${l_username}</arg>
 </arguments>
-<status status="PASS" starttime="20190719 14:38:55.600" endtime="20190719 14:38:56.633"></status>
+<status status="PASS" starttime="20190724 13:35:14.480" endtime="20190724 13:35:15.516"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -53,8 +53,8 @@
 <arg>${l_username}</arg>
 <arg>${username}</arg>
 </arguments>
-<msg timestamp="20190719 14:38:56.633" level="INFO">Typing text 'lfoptimise' into text field 'css=input#UserName'.</msg>
-<status status="PASS" starttime="20190719 14:38:56.633" endtime="20190719 14:38:58.226"></status>
+<msg timestamp="20190724 13:35:15.517" level="INFO">Typing text 'lfoptimise' into text field 'css=input#UserName'.</msg>
+<status status="PASS" starttime="20190724 13:35:15.517" endtime="20190724 13:35:17.172"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -62,23 +62,23 @@
 <arg>${l_password}</arg>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20190719 14:38:58.227" level="INFO">Typing text 'ravinia2015' into text field 'id=Password'.</msg>
-<status status="PASS" starttime="20190719 14:38:58.226" endtime="20190719 14:38:59.814"></status>
+<msg timestamp="20190724 13:35:17.172" level="INFO">Typing text 'ravinia2015' into text field 'id=Password'.</msg>
+<status status="PASS" starttime="20190724 13:35:17.172" endtime="20190724 13:35:18.772"></status>
 </kw>
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <doc>Waits until element ``locator`` is visible.</doc>
 <arguments>
 <arg>${l_loginbutton}</arg>
 </arguments>
-<status status="PASS" starttime="20190719 14:38:59.814" endtime="20190719 14:39:00.841"></status>
+<status status="PASS" starttime="20190724 13:35:18.772" endtime="20190724 13:35:19.787"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${l_loginbutton}</arg>
 </arguments>
-<msg timestamp="20190719 14:39:00.841" level="INFO">Clicking element 'id=btnSubmit'.</msg>
-<status status="PASS" starttime="20190719 14:39:00.841" endtime="20190719 14:39:04.598"></status>
+<msg timestamp="20190724 13:35:19.787" level="INFO">Clicking element 'id=btnSubmit'.</msg>
+<status status="PASS" starttime="20190724 13:35:19.787" endtime="20190724 13:35:24.247"></status>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <doc>Verifies that element ``locator`` contains exact text ``expected``.</doc>
@@ -86,416 +86,216 @@
 <arg>${l_verification}</arg>
 <arg>lfoptimise</arg>
 </arguments>
-<msg timestamp="20190719 14:39:04.599" level="INFO">Verifying element 'id=portal-name' contains exact text 'lfoptimise'.</msg>
-<status status="PASS" starttime="20190719 14:39:04.599" endtime="20190719 14:39:06.041"></status>
+<msg timestamp="20190724 13:35:24.248" level="INFO">Verifying element 'id=portal-name' contains exact text 'lfoptimise'.</msg>
+<status status="PASS" starttime="20190724 13:35:24.247" endtime="20190724 13:35:25.716"></status>
 </kw>
-<status status="PASS" starttime="20190719 14:38:55.600" endtime="20190719 14:39:06.041"></status>
+<status status="PASS" starttime="20190724 13:35:14.479" endtime="20190724 13:35:25.716"></status>
 </kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>5s</arg>
-</arguments>
-<msg timestamp="20190719 14:39:11.043" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20190719 14:39:06.042" endtime="20190719 14:39:11.043"></status>
-</kw>
-<kw name="user is able to select Custom time frame" library="VisitoList">
-<kw name="Get Current Date" library="DateTime">
-<doc>Returns current local or UTC time with an optional increment.</doc>
-<arguments>
-<arg>result_format=%Y-%m-%d %H:%M:%S.%f</arg>
-</arguments>
-<assign>
-<var>${CurrentDate}</var>
-</assign>
-<msg timestamp="20190719 14:39:11.044" level="INFO">${CurrentDate} = 2019-07-19 14:39:11.043689</msg>
-<status status="PASS" starttime="20190719 14:39:11.044" endtime="20190719 14:39:11.044"></status>
-</kw>
-<kw name="Subtract Time From Date" library="DateTime">
-<doc>Subtracts time from date and returns the resulting date.</doc>
-<arguments>
-<arg>${CurrentDate}</arg>
-<arg>10 days</arg>
-<arg>result_format=%d/%m/%Y</arg>
-</arguments>
-<assign>
-<var>${customefrom}</var>
-</assign>
-<msg timestamp="20190719 14:39:11.049" level="INFO">${customefrom} = 09/07/2019</msg>
-<status status="PASS" starttime="20190719 14:39:11.045" endtime="20190719 14:39:11.049"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${customefrom}</arg>
-</arguments>
-<msg timestamp="20190719 14:39:11.049" level="INFO">09/07/2019</msg>
-<status status="PASS" starttime="20190719 14:39:11.049" endtime="20190719 14:39:11.049"></status>
-</kw>
-<kw name="Get Current Date" library="DateTime">
-<doc>Returns current local or UTC time with an optional increment.</doc>
-<arguments>
-<arg>result_format=%Y-%m-%d %H:%M:%S.%f</arg>
-</arguments>
-<assign>
-<var>${CurrentDate}</var>
-</assign>
-<msg timestamp="20190719 14:39:11.050" level="INFO">${CurrentDate} = 2019-07-19 14:39:11.049672</msg>
-<status status="PASS" starttime="20190719 14:39:11.050" endtime="20190719 14:39:11.050"></status>
-</kw>
-<kw name="Subtract Time From Date" library="DateTime">
-<doc>Subtracts time from date and returns the resulting date.</doc>
-<arguments>
-<arg>${CurrentDate}</arg>
-<arg>2 days</arg>
-<arg>result_format=%d/%m/%Y</arg>
-</arguments>
-<assign>
-<var>${customeTo}</var>
-</assign>
-<msg timestamp="20190719 14:39:11.051" level="INFO">${customeTo} = 17/07/2019</msg>
-<status status="PASS" starttime="20190719 14:39:11.050" endtime="20190719 14:39:11.051"></status>
-</kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>${customeTo}</arg>
-</arguments>
-<msg timestamp="20190719 14:39:11.051" level="INFO">17/07/2019</msg>
-<status status="PASS" starttime="20190719 14:39:11.051" endtime="20190719 14:39:11.051"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${clickontimeframe}</arg>
-</arguments>
-<msg timestamp="20190719 14:39:11.063" level="INFO">Clicking element 'xpath=//form[@id="DateFilter"]/div/div/div[3]/span/span/span[2]/span'.</msg>
-<status status="PASS" starttime="20190719 14:39:11.052" endtime="20190719 14:39:12.197"></status>
-</kw>
-<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
-<doc>Waits until element ``locator`` is visible.</doc>
-<arguments>
-<arg>${customdateselect}</arg>
-</arguments>
-<status status="PASS" starttime="20190719 14:39:12.197" endtime="20190719 14:39:13.247"></status>
-</kw>
+<kw name="Open Visitor List Page" library="HomePage">
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20190719 14:39:16.250" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20190719 14:39:13.247" endtime="20190719 14:39:16.250"></status>
+<msg timestamp="20190724 13:35:28.728" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20190724 13:35:25.717" endtime="20190724 13:35:28.728"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
-<arg>${customdateselect}</arg>
+<arg>${visitorlist}</arg>
 </arguments>
-<msg timestamp="20190719 14:39:16.251" level="INFO">Clicking element 'xpath=//ul[@id="StandardFilter_SelectedDateValue_listbox"]/li[12]'.</msg>
-<status status="PASS" starttime="20190719 14:39:16.250" endtime="20190719 14:39:17.477"></status>
+<msg timestamp="20190724 13:35:28.728" level="INFO">Clicking element 'link=Visitor List'.</msg>
+<status status="PASS" starttime="20190724 13:35:28.728" endtime="20190724 13:35:31.256"></status>
 </kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of current page.</doc>
+<status status="PASS" starttime="20190724 13:35:31.256" endtime="20190724 13:35:32.243"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that current page title equals ``title``.</doc>
 <arguments>
-<arg>1s</arg>
+<arg>Visitor List</arg>
 </arguments>
-<msg timestamp="20190719 14:39:18.479" level="INFO">Slept 1 second</msg>
-<status status="PASS" starttime="20190719 14:39:17.477" endtime="20190719 14:39:18.479"></status>
+<msg timestamp="20190724 13:35:32.750" level="INFO">Page title is 'Visitor List'.</msg>
+<status status="PASS" starttime="20190724 13:35:32.243" endtime="20190724 13:35:32.750"></status>
 </kw>
-<kw name="Clear Element Text" library="SeleniumLibrary">
-<doc>Clears the value of text entry element identified by ``locator``.</doc>
-<arguments>
-<arg>${inputcustomfrom}</arg>
-</arguments>
-<status status="PASS" starttime="20190719 14:39:18.479" endtime="20190719 14:39:19.558"></status>
+<status status="PASS" starttime="20190724 13:35:25.716" endtime="20190724 13:35:32.750"></status>
 </kw>
+<kw name="Search Visits by keyword" library="VisitoList">
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
 <arguments>
-<arg>${inputcustomfrom}</arg>
-<arg>${customefrom}</arg>
+<arg>${inputtext}</arg>
+<arg>${searchwrongkeyword}</arg>
 </arguments>
-<msg timestamp="20190719 14:39:19.558" level="INFO">Typing text '09/07/2019' into text field 'id=StandardFilter_CustomDateFrom'.</msg>
-<status status="PASS" starttime="20190719 14:39:19.558" endtime="20190719 14:39:21.258"></status>
-</kw>
-<kw name="Clear Element Text" library="SeleniumLibrary">
-<doc>Clears the value of text entry element identified by ``locator``.</doc>
-<arguments>
-<arg>${inputcutomto}</arg>
-</arguments>
-<status status="PASS" starttime="20190719 14:39:21.259" endtime="20190719 14:39:22.330"></status>
-</kw>
-<kw name="Input Text" library="SeleniumLibrary">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>${inputcutomto}</arg>
-<arg>${customeTo}</arg>
-</arguments>
-<msg timestamp="20190719 14:39:22.330" level="INFO">Typing text '17/07/2019' into text field 'id=StandardFilter_CustomDateTo'.</msg>
-<status status="PASS" starttime="20190719 14:39:22.330" endtime="20190719 14:39:23.936"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>3s</arg>
-</arguments>
-<msg timestamp="20190719 14:39:26.937" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20190719 14:39:23.936" endtime="20190719 14:39:26.937"></status>
+<msg timestamp="20190724 13:35:32.752" level="INFO">Typing text '123' into text field 'id=SearchText'.</msg>
+<status status="PASS" starttime="20190724 13:35:32.752" endtime="20190724 13:35:34.691"></status>
 </kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
-<arg>${clickonviewbutton}</arg>
+<arg>${opendrpdownsearch}</arg>
 </arguments>
-<msg timestamp="20190719 14:39:26.938" level="INFO">Clicking element 'xpath=//button[@id="btnChangeDate"]'.</msg>
-<status status="PASS" starttime="20190719 14:39:26.937" endtime="20190719 14:39:28.176"></status>
+<msg timestamp="20190724 13:35:34.691" level="INFO">Clicking element 'xpath=//span[@style="width: 100px;"]/span'.</msg>
+<status status="PASS" starttime="20190724 13:35:34.691" endtime="20190724 13:35:35.835"></status>
 </kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
 <arguments>
-<arg>4s</arg>
+<arg>${selcecategory}</arg>
 </arguments>
-<msg timestamp="20190719 14:39:32.177" level="INFO">Slept 4 seconds</msg>
-<status status="PASS" starttime="20190719 14:39:28.176" endtime="20190719 14:39:32.177"></status>
+<msg timestamp="20190724 13:35:35.835" level="INFO">Clicking element 'xpath=//ul[@id="SearchType_listbox"]/li[2]'.</msg>
+<status status="PASS" starttime="20190724 13:35:35.835" endtime="20190724 13:35:36.914"></status>
 </kw>
-<kw name="Get Value" library="SeleniumLibrary">
-<doc>Returns the value attribute of element identified by ``locator``.</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
 <arguments>
-<arg>${inputcustomfrom}</arg>
+<arg>${clickonsearch}</arg>
 </arguments>
-<assign>
-<var>${customefrom1}</var>
-</assign>
-<msg timestamp="20190719 14:39:33.342" level="INFO">${customefrom1} = 09/07/2019</msg>
-<status status="PASS" starttime="20190719 14:39:32.177" endtime="20190719 14:39:33.342"></status>
-</kw>
-<kw name="Should Be Equal" library="BuiltIn">
-<doc>Fails if the given objects are unequal.</doc>
-<arguments>
-<arg>${customefrom}</arg>
-<arg>${customefrom1}</arg>
-</arguments>
-<status status="PASS" starttime="20190719 14:39:33.342" endtime="20190719 14:39:33.342"></status>
-</kw>
-<kw name="Get Value" library="SeleniumLibrary">
-<doc>Returns the value attribute of element identified by ``locator``.</doc>
-<arguments>
-<arg>${inputcutomto}</arg>
-</arguments>
-<assign>
-<var>${customto1}</var>
-</assign>
-<msg timestamp="20190719 14:39:34.372" level="INFO">${customto1} = 17/07/2019</msg>
-<status status="PASS" starttime="20190719 14:39:33.342" endtime="20190719 14:39:34.372"></status>
-</kw>
-<kw name="Should Be Equal" library="BuiltIn">
-<doc>Fails if the given objects are unequal.</doc>
-<arguments>
-<arg>${customto1}</arg>
-<arg>${customeTo}</arg>
-</arguments>
-<status status="PASS" starttime="20190719 14:39:34.372" endtime="20190719 14:39:34.373"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>5s</arg>
-</arguments>
-<msg timestamp="20190719 14:39:39.373" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20190719 14:39:34.373" endtime="20190719 14:39:39.373"></status>
+<msg timestamp="20190724 13:35:36.915" level="INFO">Clicking element 'id=btnSearch'.</msg>
+<status status="PASS" starttime="20190724 13:35:36.915" endtime="20190724 13:35:38.084"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
 <arguments>
-<arg>${firstcompanyvisit}</arg>
+<arg>${getstring}</arg>
 </arguments>
 <assign>
-<var>${visitdat}</var>
+<var>${string1}</var>
 </assign>
-<msg timestamp="20190719 14:39:40.420" level="INFO">${visitdat} = 17/07/2019 23:39</msg>
-<status status="PASS" starttime="20190719 14:39:39.373" endtime="20190719 14:39:40.420"></status>
-</kw>
-<kw name="Convert To String" library="BuiltIn">
-<doc>Converts the given item to a Unicode string.</doc>
-<arguments>
-<arg>${visitdat}</arg>
-</arguments>
-<assign>
-<var>${Customefromdate}</var>
-</assign>
-<msg timestamp="20190719 14:39:40.421" level="INFO">${Customefromdate} = 17/07/2019 23:39</msg>
-<status status="PASS" starttime="20190719 14:39:40.420" endtime="20190719 14:39:40.421"></status>
+<msg timestamp="20190724 13:35:39.149" level="INFO">${string1} = No items to display</msg>
+<status status="PASS" starttime="20190724 13:35:38.084" endtime="20190724 13:35:39.149"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
-<arg>${Customefromdate}</arg>
+<arg>${string1}</arg>
 </arguments>
-<status status="PASS" starttime="20190719 14:39:40.421" endtime="20190719 14:39:40.422"></status>
-</kw>
-<kw name="Should Start With" library="BuiltIn">
-<doc>Fails if the string ``str1`` does not start with the string ``str2``.</doc>
-<arguments>
-<arg>${Customefromdate}</arg>
-<arg>17/07/2019</arg>
-</arguments>
-<assign>
-<var>${cutstring}</var>
-</assign>
-<msg timestamp="20190719 14:39:40.423" level="INFO">${cutstring} = None</msg>
-<status status="PASS" starttime="20190719 14:39:40.422" endtime="20190719 14:39:40.423"></status>
+<status status="PASS" starttime="20190724 13:35:39.149" endtime="20190724 13:35:39.149"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
 <arguments>
-<arg>'${Customefromdate}' == '${cutstring}'</arg>
-<arg>click on date tool tip</arg>
+<arg>'${string1}' == 'No items to display'</arg>
+<arg>log to console</arg>
+<arg>no error found</arg>
 </arguments>
-<status status="PASS" starttime="20190719 14:39:40.423" endtime="20190719 14:39:40.424"></status>
-</kw>
-<kw name="Click Element" library="SeleniumLibrary">
-<doc>Click element identified by ``locator``.</doc>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
 <arguments>
-<arg>${clickondatetooltip}</arg>
+<arg>no error found</arg>
 </arguments>
-<msg timestamp="20190719 14:39:40.425" level="INFO">Clicking element 'xpath=//div[@id="grdvisitorlist"]/table/thead/tr/th[3]/a'.</msg>
-<status status="PASS" starttime="20190719 14:39:40.424" endtime="20190719 14:39:41.621"></status>
+<status status="PASS" starttime="20190724 13:35:39.149" endtime="20190724 13:35:39.149"></status>
 </kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>5s</arg>
-</arguments>
-<msg timestamp="20190719 14:39:46.621" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20190719 14:39:41.621" endtime="20190719 14:39:46.621"></status>
+<status status="PASS" starttime="20190724 13:35:39.149" endtime="20190724 13:35:39.149"></status>
 </kw>
 <kw name="Get Text" library="SeleniumLibrary">
 <doc>Returns the text value of element identified by ``locator``.</doc>
 <arguments>
-<arg>${firstcompanyvisit}</arg>
+<arg>${novisitmessage}</arg>
 </arguments>
 <assign>
-<var>${visitdat}</var>
+<var>${companymessage1}</var>
 </assign>
-<msg timestamp="20190719 14:39:47.679" level="INFO">${visitdat} = 09/07/2019 01:21</msg>
-<status status="PASS" starttime="20190719 14:39:46.621" endtime="20190719 14:39:47.679"></status>
-</kw>
-<kw name="Convert To String" library="BuiltIn">
-<doc>Converts the given item to a Unicode string.</doc>
-<arguments>
-<arg>${visitdat}</arg>
-</arguments>
-<assign>
-<var>${Customefromdate}</var>
-</assign>
-<msg timestamp="20190719 14:39:47.680" level="INFO">${Customefromdate} = 09/07/2019 01:21</msg>
-<status status="PASS" starttime="20190719 14:39:47.679" endtime="20190719 14:39:47.680"></status>
+<msg timestamp="20190724 13:35:40.228" level="INFO">${companymessage1} = There are no visits to display. Please check your filters and try again.</msg>
+<status status="PASS" starttime="20190724 13:35:39.149" endtime="20190724 13:35:40.228"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
-<arg>${Customefromdate}</arg>
+<arg>${companymessage1}</arg>
 </arguments>
-<status status="PASS" starttime="20190719 14:39:47.681" endtime="20190719 14:39:47.681"></status>
+<status status="PASS" starttime="20190724 13:35:40.228" endtime="20190724 13:35:40.228"></status>
 </kw>
-<kw name="Should Contain" library="BuiltIn">
-<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<kw name="Element Should Contain" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
 <arguments>
-<arg>${Customefromdate}</arg>
-<arg>${customefrom}</arg>
+<arg>${novisitmessage}</arg>
+<arg>There are no visits to display. Please check your filters and try again.</arg>
 </arguments>
-<status status="PASS" starttime="20190719 14:39:47.681" endtime="20190719 14:39:47.682"></status>
+<msg timestamp="20190724 13:35:41.280" level="INFO">Element 'xpath=//div[@id="grdvisitorlist"]/table/tbody/tr/td/b' contains text 'There are no visits to display. Please check your filters and try again.'.</msg>
+<status status="PASS" starttime="20190724 13:35:40.228" endtime="20190724 13:35:41.280"></status>
 </kw>
-<kw name="Run Keyword If" library="BuiltIn">
-<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
 <arguments>
-<arg>'${Customefromdate}' != '${cutstring}'</arg>
-<arg>click on date tool tip</arg>
+<arg>${inputtext}</arg>
+<arg>${searchbykeywords}</arg>
 </arguments>
-<kw name="click on date tool tip" library="VisitoList">
+<msg timestamp="20190724 13:35:41.281" level="INFO">Typing text 'lead forensics' into text field 'id=SearchText'.</msg>
+<status status="PASS" starttime="20190724 13:35:41.280" endtime="20190724 13:35:42.900"></status>
+</kw>
 <kw name="Click Element" library="SeleniumLibrary">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
-<arg>${clickondatetooltip}</arg>
+<arg>${opendrpdownsearch}</arg>
 </arguments>
-<msg timestamp="20190719 14:39:47.684" level="INFO">Clicking element 'xpath=//div[@id="grdvisitorlist"]/table/thead/tr/th[3]/a'.</msg>
-<status status="PASS" starttime="20190719 14:39:47.684" endtime="20190719 14:39:48.885"></status>
+<msg timestamp="20190724 13:35:42.900" level="INFO">Clicking element 'xpath=//span[@style="width: 100px;"]/span'.</msg>
+<status status="PASS" starttime="20190724 13:35:42.900" endtime="20190724 13:35:43.973"></status>
 </kw>
-<status status="PASS" starttime="20190719 14:39:47.683" endtime="20190719 14:39:48.885"></status>
-</kw>
-<status status="PASS" starttime="20190719 14:39:47.682" endtime="20190719 14:39:48.885"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
 <arguments>
-<arg>5s</arg>
+<arg>${selcecategory}</arg>
 </arguments>
-<msg timestamp="20190719 14:39:53.886" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20190719 14:39:48.885" endtime="20190719 14:39:53.886"></status>
+<msg timestamp="20190724 13:35:43.973" level="INFO">Clicking element 'xpath=//ul[@id="SearchType_listbox"]/li[2]'.</msg>
+<status status="PASS" starttime="20190724 13:35:43.973" endtime="20190724 13:35:45.036"></status>
 </kw>
-<kw name="Get Text" library="SeleniumLibrary">
-<doc>Returns the text value of element identified by ``locator``.</doc>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
 <arguments>
-<arg>${firstcompanyvisit}</arg>
+<arg>${clickonsearch}</arg>
 </arguments>
-<assign>
-<var>${vistdate1}</var>
-</assign>
-<msg timestamp="20190719 14:39:54.952" level="INFO">${vistdate1} = 17/07/2019 23:39</msg>
-<status status="PASS" starttime="20190719 14:39:53.887" endtime="20190719 14:39:54.952"></status>
+<msg timestamp="20190724 13:35:45.038" level="INFO">Clicking element 'id=btnSearch'.</msg>
+<status status="PASS" starttime="20190724 13:35:45.036" endtime="20190724 13:35:46.128"></status>
 </kw>
-<kw name="Convert To String" library="BuiltIn">
-<doc>Converts the given item to a Unicode string.</doc>
+<kw name="Element Should Contain" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
 <arguments>
-<arg>${vistdate1}</arg>
+<arg>${checkkeyword}</arg>
+<arg>${searchbykeywords}</arg>
 </arguments>
-<assign>
-<var>${Customtodate}</var>
-</assign>
-<msg timestamp="20190719 14:39:54.954" level="INFO">${Customtodate} = 17/07/2019 23:39</msg>
-<status status="PASS" starttime="20190719 14:39:54.953" endtime="20190719 14:39:54.954"></status>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190724 13:35:49.799" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../../robot-scripts/UScrennshot/selenium-screenshot-231.png"&gt;&lt;img src="../../robot-scripts/UScrennshot/selenium-screenshot-231.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20190724 13:35:48.941" endtime="20190724 13:35:49.799"></status>
 </kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>${Customtodate}</arg>
-</arguments>
-<status status="PASS" starttime="20190719 14:39:54.954" endtime="20190719 14:39:54.955"></status>
+<msg timestamp="20190724 13:35:49.799" level="FAIL">Element 'xpath=//div[@id="grdvisitorlist"]/table/tbody/tr[1]/td[9]' should have contained text 'lead forensics' but its text was ''.</msg>
+<status status="FAIL" starttime="20190724 13:35:46.129" endtime="20190724 13:35:49.799"></status>
 </kw>
-<kw name="Should Contain" library="BuiltIn">
-<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<arguments>
-<arg>${Customtodate}</arg>
-<arg>${customeTo}</arg>
-</arguments>
-<status status="PASS" starttime="20190719 14:39:54.955" endtime="20190719 14:39:54.956"></status>
+<status status="FAIL" starttime="20190724 13:35:32.751" endtime="20190724 13:35:49.799"></status>
 </kw>
-<status status="PASS" starttime="20190719 14:39:11.043" endtime="20190719 14:39:54.956"></status>
+<kw name="End Web Test" library="Common" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20190724 13:35:49.799" endtime="20190724 13:35:52.362"></status>
+</kw>
+<status status="PASS" starttime="20190724 13:35:49.799" endtime="20190724 13:35:52.363"></status>
 </kw>
 <tags>
 <tag>Regression</tag>
 <tag>Sanity</tag>
-<tag>Timeframe</tag>
+<tag>searchkeyword</tag>
 <tag>Visitorlist</tag>
 </tags>
-<status status="PASS" starttime="20190719 14:38:51.184" endtime="20190719 14:39:54.957" critical="yes"></status>
+<status status="FAIL" starttime="20190724 13:35:09.904" endtime="20190724 13:35:52.363" critical="yes">Element 'xpath=//div[@id="grdvisitorlist"]/table/tbody/tr[1]/td[9]' should have contained text 'lead forensics' but its text was ''.</status>
 </test>
-<status status="PASS" starttime="20190719 14:38:50.932" endtime="20190719 14:39:54.958"></status>
+<status status="FAIL" starttime="20190724 13:35:09.672" endtime="20190724 13:35:52.365"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0">Critical Tests</stat>
-<stat pass="1" fail="0">All Tests</stat>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0">Regression</stat>
-<stat pass="1" fail="0">Sanity</stat>
-<stat pass="1" fail="0">Timeframe</stat>
-<stat pass="1" fail="0">Visitorlist</stat>
+<stat pass="0" fail="1">Regression</stat>
+<stat pass="0" fail="1">Sanity</stat>
+<stat pass="0" fail="1">searchkeyword</stat>
+<stat pass="0" fail="1">Visitorlist</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" id="s1" name="AllTest">AllTest</stat>
+<stat pass="0" fail="1" id="s1" name="AllTest">AllTest</stat>
 </suite>
 </statistics>
 <errors>

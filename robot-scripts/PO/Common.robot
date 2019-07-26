@@ -14,7 +14,7 @@ Get DateTime
 Begin Web Test
     open browser  ${switch}  ${Browser}
     maximize browser window
-     Set Selenium Speed    0.5 seconds
+    Set Selenium Speed    0.5 seconds
     Set Selenium Implicit Wait    2s
     Set Screenshot Directory    C:\\development\\robot-scripts\\UScrennshot
 End Web Test

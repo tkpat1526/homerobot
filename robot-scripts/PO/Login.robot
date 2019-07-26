@@ -1,5 +1,6 @@
 *** Settings ***
 Library       SeleniumLibrary
+
 Variables     ../Variable/Variables.py
 
 
@@ -18,8 +19,8 @@ Enter valid login id and password
     input text                      ${l_username}    ${username}
     input text                      ${l_password}     ${password}
     wait until element is visible   ${l_loginbutton}
-    click element                   ${l_loginbutton}
-    element text should be          ${l_verification}  lfoptimise
+    click element           ${l_loginbutton}
+#    element text should be          ${l_verification}  lfoptimise
 
 Enter invalid login id and valid password
     wait until element is visible   ${l_username}

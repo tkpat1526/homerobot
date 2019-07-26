@@ -3,12 +3,174 @@
   <component name="ChangeListManager">
     <list default="true" id="25a620dd-52d2-4be6-9209-1f8fa631d866" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/Reports/LeadManager1/ReportLead.robot" beforeDir="false" afterPath="$PROJECT_DIR$/PO/Reports/LeadManager1/ReportLead.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PO/Reports/Reports.robot" beforeDir="false" afterPath="$PROJECT_DIR$/PO/Reports/Reports.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO/Accelerate/Accelerate.robot" beforeDir="false" afterPath="$PROJECT_DIR$/PO/Accelerate/Accelerate.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO/Common.robot" beforeDir="false" afterPath="$PROJECT_DIR$/PO/Common.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PO/Login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/PO/Login.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PO/VisitoList.robot" beforeDir="false" afterPath="$PROJECT_DIR$/PO/VisitoList.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/AllTest.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/AllTest.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-103.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-104.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-106.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-108.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-109.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-110.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-112.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-113.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-115.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-116.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-117.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-118.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-119.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-121.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-122.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-123.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-124.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-126.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-127.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-129.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-130.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-131.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-132.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-133.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-134.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-135.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-136.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-137.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-138.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-139.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-140.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-141.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-142.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-143.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-145.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-146.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-147.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-148.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-149.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-151.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-153.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-154.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-155.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-156.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-157.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-158.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-159.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-69.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-77.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-78.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-85.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-86.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-89.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-92.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-93.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-94.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-95.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-97.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-98.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UScrennshot/selenium-screenshot-99.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Variable/Variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/Variable/Variables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
@@ -24,29 +186,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/AllTest.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="271" column="19" selection-start-line="271" selection-start-column="19" selection-end-line="271" selection-end-column="19" />
+            <state relative-caret-position="309">
+              <caret line="300" column="43" lean-forward="true" selection-start-line="300" selection-start-column="43" selection-end-line="300" selection-end-column="43" />
               <folding>
                 <element signature="e#0#1066#0" expanded="true" />
-                <element signature="e#1340#1655#0" />
-                <element signature="e#1742#2282#0" />
-                <element signature="e#2353#3115#0" />
-                <element signature="e#3116#3973#0" />
-                <element signature="e#3974#4416#0" />
-                <element signature="e#4417#4668#0" />
-                <element signature="e#4669#4946#0" />
-                <element signature="e#4947#5382#0" />
-                <element signature="e#5483#6700#0" />
-                <element signature="e#6701#7075#0" />
-                <element signature="e#7076#7455#0" />
-                <element signature="e#7456#7941#0" />
-                <element signature="e#7942#8445#0" />
-                <element signature="e#8446#8800#0" />
-                <element signature="e#8801#9376#0" />
-                <element signature="e#9435#9744#0" />
-                <element signature="e#9799#10099#0" />
-                <element signature="e#10166#10360#0" />
-                <element signature="e#11280#11476#0" />
+                <element signature="e#1742#2280#0" />
+                <element signature="e#3121#3981#0" />
+                <element signature="e#4434#4695#0" />
+                <element signature="e#4696#4984#0" />
+                <element signature="e#5530#6393#0" />
+                <element signature="e#6394#6777#0" />
+                <element signature="e#6778#7166#0" />
+                <element signature="e#7167#7659#0" />
+                <element signature="e#7660#8172#0" />
+                <element signature="e#8173#8536#0" />
+                <element signature="e#8537#9121#0" />
+                <element signature="e#9180#9498#0" />
+                <element signature="e#9553#10179#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Variable/Variables.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PO/Reports/Reports.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-181">
+              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#1110#1337#0" />
               </folding>
             </state>
           </provider>
@@ -55,28 +233,73 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PO/VisitoList.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="157" column="38" lean-forward="true" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="38" />
+            <state relative-caret-position="595">
+              <caret line="41" column="103" selection-start-line="41" selection-start-column="103" selection-end-line="41" selection-end-column="103" />
               <folding>
-                <element signature="e#0#100#0" expanded="true" />
-                <element signature="e#2505#3096#0" />
-                <element signature="e#3097#3185#0" />
-                <element signature="e#3395#3493#0" />
-                <element signature="e#3494#3773#0" />
-                <element signature="e#3774#4593#0" />
-                <element signature="e#4594#4969#0" />
-                <element signature="e#4970#5783#0" />
-                <element signature="e#5784#6129#0" />
-                <element signature="e#6130#6935#0" />
-                <element signature="e#6936#7032#0" />
-                <element signature="e#7033#10077#0" />
-                <element signature="e#9208#9278#0" />
-                <element signature="e#9279#9890#0" />
-                <element signature="e#9891#10103#0" />
-                <element signature="e#10106#10249#0" />
-                <element signature="e#10312#10395#0" />
-                <element signature="e#10396#11328#0" />
-                <element signature="e#11329#12261#0" />
+                <element signature="e#0#116#0" expanded="true" />
+                <element signature="e#3176#3767#0" />
+                <element signature="e#3768#3856#0" />
+                <element signature="e#4048#4146#0" />
+                <element signature="e#4147#4426#0" />
+                <element signature="e#4427#5246#0" />
+                <element signature="e#5247#5622#0" />
+                <element signature="e#5623#6436#0" />
+                <element signature="e#6437#6782#0" />
+                <element signature="e#6783#7588#0" />
+                <element signature="e#7589#7685#0" />
+                <element signature="e#7686#10910#0" />
+                <element signature="e#10911#10981#0" />
+                <element signature="e#10982#11593#0" />
+                <element signature="e#11414#11626#0" />
+                <element signature="e#11627#11770#0" />
+                <element signature="e#11836#11919#0" />
+                <element signature="e#11920#12852#0" />
+                <element signature="e#12853#14055#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PO/Login.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10362">
+              <caret line="481" column="18" selection-start-line="481" selection-start-column="18" selection-end-line="481" selection-end-column="18" />
+              <folding>
+                <element signature="e#788#801#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/command.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2112">
+              <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PO/Common.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#133#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,7 +308,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/robot/libraries/BuiltIn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
+            <state relative-caret-position="36564">
               <caret line="1686" column="8" selection-start-line="1686" selection-start-column="8" selection-end-line="1686" selection-end-column="8" />
               <folding>
                 <element signature="e#644#658#0" expanded="true" />
@@ -94,7 +317,26 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PO/Automation5.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -113,8 +355,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Tests/Uils.py" />
-        <option value="$PROJECT_DIR$/Tests/BasePage.robot" />
         <option value="$PROJECT_DIR$/Results/Tests/BasePage.robot" />
         <option value="$PROJECT_DIR$/PO/DashBoard.robot" />
         <option value="$PROJECT_DIR$/Tests/tk.py" />
@@ -139,7 +379,6 @@
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/robot/libraries/Screenshot.py" />
         <option value="$PROJECT_DIR$/PO/Automation5.robot" />
         <option value="$PROJECT_DIR$/PO/Setup.robot" />
-        <option value="$PROJECT_DIR$/PO/Common.robot" />
         <option value="$PROJECT_DIR$/PO/Reports/LeadManager/LeadManager.robot" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/SeleniumLibrary/keywords/waiting.py" />
         <option value="$PROJECT_DIR$/PO/Reports/Pages/Pages.robot" />
@@ -155,22 +394,26 @@
         <option value="$PROJECT_DIR$/PO/Setup/Setup.robot" />
         <option value="$PROJECT_DIR$/PO/Setup/UserSetup/UsersSetup.robot" />
         <option value="$PROJECT_DIR$/PO/Supports/Support.robot" />
-        <option value="$PROJECT_DIR$/PO/HomePage.robot" />
         <option value="$PROJECT_DIR$/Tests/ALLTest.robot" />
-        <option value="$PROJECT_DIR$/PO/Accelerate/Accelerate.robot" />
-        <option value="$PROJECT_DIR$/Variable/Variables.py" />
-        <option value="$PROJECT_DIR$/PO/Login.robot" />
-        <option value="$PROJECT_DIR$/PO/Reports/Reports.robot" />
         <option value="$PROJECT_DIR$/PO/Reports/LeadManager1/ReportLead.robot" />
+        <option value="$PROJECT_DIR$/PO/HomePage.robot" />
+        <option value="$PROJECT_DIR$/PO/Accelerate/Accelerate.robot" />
+        <option value="$PROJECT_DIR$/PO/Common.robot" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/SeleniumLibrary/base/context.py" />
+        <option value="$PROJECT_DIR$/PO/Utils.py" />
+        <option value="$PROJECT_DIR$/PO/Login.robot" />
         <option value="$PROJECT_DIR$/Tests/AllTest.robot" />
+        <option value="$PROJECT_DIR$/PO/Reports/Reports.robot" />
+        <option value="$PROJECT_DIR$/Variable/Variables.py" />
         <option value="$PROJECT_DIR$/PO/VisitoList.robot" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1966" />
-    <option name="width" value="1786" />
-    <option name="height" value="1006" />
+    <option name="x" value="1958" />
+    <option name="y" value="9" />
+    <option name="width" value="1881" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -195,14 +438,13 @@
               <item name="robot-scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="robot-scripts" type="462c0819:PsiDirectoryNode" />
               <item name="PO" type="462c0819:PsiDirectoryNode" />
-              <item name="Reports" type="462c0819:PsiDirectoryNode" />
+              <item name="Accelerate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="robot-scripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="robot-scripts" type="462c0819:PsiDirectoryNode" />
               <item name="PO" type="462c0819:PsiDirectoryNode" />
               <item name="Reports" type="462c0819:PsiDirectoryNode" />
-              <item name="LeadManager1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="robot-scripts" type="b2602c69:ProjectViewProjectNode" />
@@ -214,21 +456,6 @@
               <item name="robot-scripts" type="462c0819:PsiDirectoryNode" />
               <item name="Variable" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="robot-scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="robot-scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="robot-scripts" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -237,7 +464,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Coderepository/robot-scripts" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
@@ -264,8 +491,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.user should be able to select different time frame">
-    <configuration name="User is able to disable and enable expand all button" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.User is able to search visits by keyword">
+    <configuration name="User is able to navigate to all pages in Reports - Visitors page" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="newproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,7 +505,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value=" -t &quot;User is able to disable and enable expand all button&quot; Tests/AllTest.robot" />
+      <option name="PARAMETERS" value=" -t &quot;User is able to navigate to all pages in Reports - Visitors page&quot; Tests/AllTest.robot" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="true" />
@@ -286,7 +513,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="User is able to enable classic view" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="User is able to search visits by keyword" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="newproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,28 +526,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value=" -t &quot;User is able to enable classic view&quot; Tests/AllTest.robot" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="User is able to enable modern view" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="newproject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\patelt\AppData\Local\Programs\Python\Python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="robot.run" />
-      <option name="PARAMETERS" value=" -t &quot;User is able to enable modern view&quot; Tests/AllTest.robot" />
+      <option name="PARAMETERS" value=" -t &quot;User is able to search visits by keyword&quot; Tests/AllTest.robot" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="true" />
@@ -342,6 +548,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="robot.run" />
       <option name="PARAMETERS" value=" -t &quot;User is able to serach visits by company name&quot; Tests/AllTest.robot" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="user is able to navigate to all pages in Reports" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="newproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\patelt\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value=" -t &quot;user is able to navigate to all pages in Reports&quot; Tests/AllTest.robot" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="true" />
@@ -372,11 +599,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.user should be able to select different time frame" />
+        <item itemvalue="Python.User is able to search visits by keyword" />
         <item itemvalue="Python.User is able to serach visits by company name" />
-        <item itemvalue="Python.User is able to disable and enable expand all button" />
-        <item itemvalue="Python.User is able to enable modern view" />
-        <item itemvalue="Python.User is able to enable classic view" />
+        <item itemvalue="Python.User is able to navigate to all pages in Reports - Visitors page" />
+        <item itemvalue="Python.user is able to navigate to all pages in Reports" />
+        <item itemvalue="Python.user should be able to select different time frame" />
       </list>
     </recent_temporary>
   </component>
@@ -393,16 +620,20 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_Tests - 2019.07.23 at 13h 45m 09s.xml">
+      <configuration name="Unittests in Tests" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1966" y="0" width="1786" height="1006" extended-state="0" />
-    <editor active="true" />
+    <frame x="1958" y="9" width="1881" height="1031" extended-state="0" />
     <layout>
-      <window_info id="Project" order="0" visible="true" weight="0.14702517" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.13944656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2371134" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23608018" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977092" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,7 +642,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Bucklescript" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.325315" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32516703" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -438,14 +669,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/SeleniumLibrary/keywords/alert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PO/DashBoard.robot" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/SeleniumLibrary/keywords/browsermanagement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11180">
@@ -458,13 +681,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PO/lf.java" />
     <entry file="file://$PROJECT_DIR$/PO/ahfh.Java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/SeleniumLibrary/base/context.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2366">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/SeleniumLibrary/keywords/selectelement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4888">
@@ -472,17 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/webelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-          <folding>
-            <element signature="e#788#801#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PO/utils.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/robot/libraries/Collections.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21086">
@@ -543,16 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PO/Automation5.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Tools/scripts/checkpyc.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -562,28 +757,8 @@
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/logging/config.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PO/Common.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/SeleniumLibrary/keywords/waiting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#694#705#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PO/Reports/Pages/Pages.robot">
       <provider selected="true" editor-type-id="text-editor">
@@ -685,40 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PO/Login.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PO/Accelerate/Accelerate.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Variable/Variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PO/webeo.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PO/Setup/Setup.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2354">
@@ -735,27 +876,6 @@
           <caret line="25" column="11" selection-start-line="25" selection-end-line="26" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PO/Reports/LeadManager1/ReportLead.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PO/Reports/Reports.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#1110#1337#0" />
           </folding>
         </state>
       </provider>
@@ -777,48 +897,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PO/Reports/LeadManager1/ReportLead.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO/Accelerate/Accelerate.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO/webeo.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PO/HomePage.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        <state relative-caret-position="308">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="56" />
           <folding>
             <element signature="e#0#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/AllTest.robot">
+    <entry file="file://$PROJECT_DIR$/PO/Utils.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/SeleniumLibrary/keywords/waiting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="271" column="19" selection-start-line="271" selection-start-column="19" selection-end-line="271" selection-end-column="19" />
+        <state relative-caret-position="2838">
+          <caret line="135" column="34" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
           <folding>
-            <element signature="e#0#1066#0" expanded="true" />
-            <element signature="e#1340#1655#0" />
-            <element signature="e#1742#2282#0" />
-            <element signature="e#2353#3115#0" />
-            <element signature="e#3116#3973#0" />
-            <element signature="e#3974#4416#0" />
-            <element signature="e#4417#4668#0" />
-            <element signature="e#4669#4946#0" />
-            <element signature="e#4947#5382#0" />
-            <element signature="e#5483#6700#0" />
-            <element signature="e#6701#7075#0" />
-            <element signature="e#7076#7455#0" />
-            <element signature="e#7456#7941#0" />
-            <element signature="e#7942#8445#0" />
-            <element signature="e#8446#8800#0" />
-            <element signature="e#8801#9376#0" />
-            <element signature="e#9435#9744#0" />
-            <element signature="e#9799#10099#0" />
-            <element signature="e#10166#10360#0" />
-            <element signature="e#11280#11476#0" />
+            <element signature="e#694#705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/SeleniumLibrary/base/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10362">
+          <caret line="481" column="18" selection-start-line="481" selection-start-column="18" selection-end-line="481" selection-end-column="18" />
+          <folding>
+            <element signature="e#788#801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/remote/command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO/Common.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/robot/libraries/BuiltIn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
+        <state relative-caret-position="36564">
           <caret line="1686" column="8" selection-start-line="1686" selection-start-column="8" selection-end-line="1686" selection-end-column="8" />
           <folding>
             <element signature="e#644#658#0" expanded="true" />
@@ -826,30 +992,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PO/Automation5.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UScrennshot/selenium-screenshot-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO/Login.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PO/Reports/Reports.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#1110#1337#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Variable/Variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/AllTest.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="300" column="43" lean-forward="true" selection-start-line="300" selection-start-column="43" selection-end-line="300" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#1066#0" expanded="true" />
+            <element signature="e#1742#2280#0" />
+            <element signature="e#3121#3981#0" />
+            <element signature="e#4434#4695#0" />
+            <element signature="e#4696#4984#0" />
+            <element signature="e#5530#6393#0" />
+            <element signature="e#6394#6777#0" />
+            <element signature="e#6778#7166#0" />
+            <element signature="e#7167#7659#0" />
+            <element signature="e#7660#8172#0" />
+            <element signature="e#8173#8536#0" />
+            <element signature="e#8537#9121#0" />
+            <element signature="e#9180#9498#0" />
+            <element signature="e#9553#10179#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PO/VisitoList.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="157" column="38" lean-forward="true" selection-start-line="157" selection-start-column="38" selection-end-line="157" selection-end-column="38" />
+        <state relative-caret-position="595">
+          <caret line="41" column="103" selection-start-line="41" selection-start-column="103" selection-end-line="41" selection-end-column="103" />
           <folding>
-            <element signature="e#0#100#0" expanded="true" />
-            <element signature="e#2505#3096#0" />
-            <element signature="e#3097#3185#0" />
-            <element signature="e#3395#3493#0" />
-            <element signature="e#3494#3773#0" />
-            <element signature="e#3774#4593#0" />
-            <element signature="e#4594#4969#0" />
-            <element signature="e#4970#5783#0" />
-            <element signature="e#5784#6129#0" />
-            <element signature="e#6130#6935#0" />
-            <element signature="e#6936#7032#0" />
-            <element signature="e#7033#10077#0" />
-            <element signature="e#9208#9278#0" />
-            <element signature="e#9279#9890#0" />
-            <element signature="e#9891#10103#0" />
-            <element signature="e#10106#10249#0" />
-            <element signature="e#10312#10395#0" />
-            <element signature="e#10396#11328#0" />
-            <element signature="e#11329#12261#0" />
+            <element signature="e#0#116#0" expanded="true" />
+            <element signature="e#3176#3767#0" />
+            <element signature="e#3768#3856#0" />
+            <element signature="e#4048#4146#0" />
+            <element signature="e#4147#4426#0" />
+            <element signature="e#4427#5246#0" />
+            <element signature="e#5247#5622#0" />
+            <element signature="e#5623#6436#0" />
+            <element signature="e#6437#6782#0" />
+            <element signature="e#6783#7588#0" />
+            <element signature="e#7589#7685#0" />
+            <element signature="e#7686#10910#0" />
+            <element signature="e#10911#10981#0" />
+            <element signature="e#10982#11593#0" />
+            <element signature="e#11414#11626#0" />
+            <element signature="e#11627#11770#0" />
+            <element signature="e#11836#11919#0" />
+            <element signature="e#11920#12852#0" />
+            <element signature="e#12853#14055#0" />
           </folding>
         </state>
       </provider>

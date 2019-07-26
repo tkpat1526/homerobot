@@ -28,19 +28,26 @@ ${expandall} =                       id=tbAutoExpand
 ${inputtext} =                       id=SearchText
 ${opendrpdownsearch} =               xpath=//span[@style="width: 100px;"]/span
 ${selcecompany} =                    xpath=//ul[@id="SearchType_listbox"]/li[1]
+${selcecategory} =                   xpath=//ul[@id="SearchType_listbox"]/li[2]
 ${clickonsearch} =                   id=btnSearch
 ${getstring} =                       xpath=//div[@id="lfwrapper"]/span[1]
 ${getcompanyname} =                  xpath=//div[@id="grdvisitorlist"]/table/tbody/tr/td[4]/div/a
 ${novisitmessage} =                  xpath=//div[@id="grdvisitorlist"]/table/tbody/tr/td/b
 ${checkkeyword}                      xpath=//div[@id="grdvisitorlist"]/table/tbody/tr[1]/td[9]
-${selcecategory} =                   xpath=//ul[@id="SearchType_listbox"]/li[2]
 ${pagesizetooltip} =                 xpath=//div[@id="grdvisitorlist_pager_top"]/div[2]/span[2]/span/span/span[2]
-${selectpagesize} =                  xpath=//div[@id="grdvisitorlist_pager_bottom"]/div[2]/span[2]/span/select/option[2]
-${hotscoretooltip} =                 css=[columnid='72']
+${selectedpagesize} =               xpath=//div[@id="grdvisitorlist_pager_top"]/div[2]/span[2]/span/span/span[1]
+${selectpagesize10} =               xpath=/html/body/div[22]/div/ul/li[2]
+${selectpagesize50} =               xpath=/html/body/div[22]/div/ul/li[4]
+${selectpagesize100} =               xpath=/html/body/div[22]/div/ul/li[5]
+${hotscoretooltip} =                 css=[class="k-header text-center"]
 ${hotscoreassert} =                  xpath=//div[@id="grdvisitorlist"]/table/tbody/tr[1]/td[1]
 ${listmenu} =                        xpath=//div[@id="grdvisitorlist"]/table/tbody/tr[1]/td
-${clickoncolumn} =
-
+${clickoncolumn} =                   xpath=//div[@id="sideBarElementContainer_COLUMNS"]/div[2]/div[2]/i
+${hotscoreselect} =                  id=Columns_0__Selected
+${page2} =                           xpath=//div[@id="lfwrapper"]/span[3]/ul[1]/li[2]
+${pagelast} =                        xpath=//div[@id="lfwrapper"]/span[3]/a[4]
+${pagefirst} =                      xpath=//div[@id="lfwrapper"]/span[3]/a[1]
+${assertaionforpage2} =             xpath=//div[@id="lfwrapper"]/span[3]/ul[1]/li[2]/span
 *** Keywords ***
 # refresh button enable and disable both /////////////////////////////
 
@@ -65,8 +72,9 @@ Select yesterday's time frame
     click element                                   ${yesterdayselect}
     element text should be                          ${assertforselecteddays}        Yesterday
 Match visit by yesterday's date
-    ${CurrentDate}=        Get Current Date    result_format=%Y-%m-%d %H:%M:%S.%f
-    ${yesterday}=          Subtract Time From Date  ${CurrentDate}   1 days   result_format=%d/%m/%Y
+
+     ${CurrentDate}=        Get Current Date    result_format=%Y-%m-%d %H:%M:%S.%f
+    ${yesterday}=          Subtract Time From Date   ${CurrentDate}   1 days   result_format=%d/%m/%Y
     Log                                             ${yesterday}
     sleep  2s
     ${visitdate} =         get text                 ${firstcompanyvisit}
@@ -84,7 +92,7 @@ Select two days time frame
     sleep  2s
     element should contain                          ${assertforselecteddays}        2 Days Ago
 Match visit by two day's date
-    ${CurrentDate}=       Get Current Date   result_format=%Y-%m-%d %H:%M:%S.%f
+    ${CurrentDate}=       Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
     ${actualtwodaysdate}=  Subtract Time From Date  ${CurrentDate}   2 days   result_format=%d/%m/%Y
     Log                                             ${actualtwodaysdate}
     sleep  2s
@@ -118,50 +126,53 @@ click on date tool tip
     click element                                   ${clickondatetooltip}
 user is able to select Custom time frame
     ${CurrentDate}=     Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
-    ${customefrom}=     Subtract Time From Date     ${CurrentDate}   10 days   result_format=%d/%m/%Y
-    Log                                             ${customefrom}
-    ${CurrentDate}=     Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
-    ${customeTo}=       Subtract Time From Date     ${CurrentDate}   2 days   result_format=%d/%m/%Y
-    Log                                             ${customeTo}
+
+#    ${CurrentDate}=     Get Current Date  result_format=%Y-%m-%d %H:%M:%S.%f
+
     click element                                   ${clickontimeframe}
     Wait Until Element Is Visible                   ${customdateselect}
     sleep  3s
     click element                                   ${customdateselect}
     sleep  1s
+    ${customefrom}=     Subtract Time From Date     ${CurrentDate}   10 days   result_format=%d/%m/%Y
+    log                                          ${customefrom}
     clear element text                              ${inputcustomfrom}
     input text                                      ${inputcustomfrom}   ${customefrom}
+    ${customeTo}=       Subtract Time From Date     ${CurrentDate}   2 days   result_format=%d/%m/%Y
+    log                                             ${customeTo}
     clear element text                              ${inputcutomto}
     input text                                      ${inputcutomto}     ${customeTo}
     sleep  3s
     click element                                   ${clickonviewbutton}
-    sleep   4s
-    ${customefrom1}=       get value                ${inputcustomfrom}
-    should be equal                                 ${customefrom}     ${customefrom1}
-    ${customto1} =         get value                  ${inputcutomto}
-#    log to console  ${customto1}
+    sleep   6s
+#    to check same date is present in custom from box
+    ${customfrom1}=       get value                ${inputcustomfrom}
+    log to console   ${customfrom1}
+    should be equal                                 ${customefrom}     ${customfrom1}
+#    to check same date is present in custom To box
+    ${customto1} =         get value                ${inputcutomto}
+    log to console  ${customto1}
     should be equal                                 ${customto1}        ${customeTo}
-    sleep  5s
-
+#    checking first visit company date is matching with custom To date or not
     ${visitdat} =           get text                ${firstcompanyvisit}
-    ${Customefromdate}=     convert to string       ${visitdat}
-    log to console                                  ${Customefromdate}
-    ${cutstring} =  should start with       ${Customefromdate}      17/07/2019
+    ${visittodate}=     convert to string       ${visitdat}
+    log to console                                  ${visittodate}
+    ${cutstring} =  should start with       ${visittodate}     ${customto1}
     #   should contain                                  ${Customefromdate}   ${customefrom}
-    run keyword if  '${Customefromdate}' == '${cutstring}'   click on date tool tip
+    run keyword if  '${visittodate}' == '${cutstring}'   click on date tool tip
                      click element                                   ${clickondatetooltip}
-                     sleep  5s
+                     sleep  6s
                      ${visitdat} =           get text                ${firstcompanyvisit}
                      ${Customefromdate}=     convert to string       ${visitdat}
-                     log to console                                   ${Customefromdate}
+                     log to console                                  ${Customefromdate}
                      should contain                                  ${Customefromdate}   ${customefrom}
-    run keyword if  '${Customefromdate}' != '${cutstring}'   click on date tool tip
+    run keyword if  '${visittodate}' != '${cutstring}'   click on date tool tip
 #                     click element                                   ${clickondatetooltip}
                       sleep  5s
                       ${vistdate1}=           get text                ${firstcompanyvisit}
                       ${Customtodate}=  convert to string             ${vistdate1}
                       log to console                                      ${Customtodate}
                       should contain   ${Customtodate}      ${customeTo}
-
 click Unique Visits only Button
     click element       ${uniquevisit}
 Disable and enable unique visits only button
@@ -178,7 +189,9 @@ Click on Classic View
     element should be visible                   ${downarrow}
     page should not contain image               ${imagenotpresent}
 Click on Modern View
+    wait until element is enabled               ${modernview}
     click element                               ${modernview}
+    wait until element is enabled               ${downarrow}
     element should be visible                   ${downarrow}
 #    page should contain image                   ${imagepresent}
 click on expand button
@@ -228,7 +241,7 @@ Search Visits by keyword
     click element           ${clickonsearch}
     ${string1}  get text   ${getstring}
     log to console  ${string1}
-    run keyword if  '${string1}' == 'No items to display'   log to console  no error found
+    run keyword if  '${string1}' == 'No items to display'   Select two days time frame
                      ${companymessage1}  get text  ${novisitmessage}
                      log to console  ${companymessage1}
                      element should contain  ${novisitmessage}  There are no visits to display. Please check your filters and try again.
@@ -236,15 +249,56 @@ Search Visits by keyword
                      click element           ${opendrpdownsearch}
                      click element           ${selcecategory}
                      click element           ${clickonsearch}
-                     element should contain   ${checkkeyword}   ${searchbykeywords}
-click on columns
-
+                     element should contain   ${checkkeyword}   ${searchbykeywo
 Click on page size
     click element               ${pagesizetooltip}
     sleep  4s
-    wait until element is visible  ${selectpagesize}
-    click element    ${selectpagesize}
+#    press keys   ${pagesizetooltip}   DOWN  DOWN  ENTER
+Select page size 10
+    click element  ${selectpagesize10}
+#    press keys   ${pagesizetooltip}   DOWN  DOWN  ENTER
+    element should contain  ${selectedpagesize}  10
+Select Page size 50
+    click element  ${selectpagesize50}
+    element should contain  ${selectedpagesize}  50
+Select Page size 100
+    click element  ${selectpagesize100}
+    element should contain  ${selectedpagesize}  100
+Open column menu
+    wait until element is enabled   ${clickoncolumn}
+    click element       ${clickoncolumn}
+Click on Hot score button
+    ${checkbox}  get selected list values  xpath=//table[@id="gridColumnSelector"]/tbody/tr
+    log to console  ${checkbox}
+    checkbox should be selected    ${hotscoreselect}
+    click element                   css=[class="button button-green small"]
 click on hot score tooltip
     click element                   ${hotscoretooltip}
-    ${listmenu}     get list items  ${listmenu}
-    log to console  ${listmenu}
+    sleep  3s
+verify hotscore tootip with ascending and descending
+    wait until element is visible    ${hotscoretooltip}
+#
+    sleep  3s
+    ${hotscore}     get text  ${hotscoreassert}
+    log to console  ${hotscore}
+    should be true  ${hotscore} < 5
+    run keyword if  '${hotscore}' >= '2'        click on hot score tooltip
+#                    click element                   ${hotscoretooltip}
+                    sleep  3s
+                    ${hotscore}     get text   ${hotscoreassert}
+                    should be true  ${hotscore} >= 5
+verify the page size in visitorlist
+# for page number 2
+    click element  ${page2}
+    ${getattri}   get element attribute  ${assertaionforpage2}  class
+    should contain  ${getattri}   selected
+    sleep  3s
+#  for last page
+    click element  ${pagelast}
+    ${lastpageattr}  get element attribute  ${pagelast}  class
+    should contain   ${lastpageattr}    disabled
+#    for first page
+    click element  ${pagefirst}
+    sleep  2s
+    ${firstpageattr}  get element attribute  ${pagefirst}  class
+    should contain   ${firstpageattr}    disabled
